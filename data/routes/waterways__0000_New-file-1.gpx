@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="yatutbuv" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk><name>New file 1</name><trkseg>
+      <trkpt lat="46.107237" lon="32.907361"></trkpt>
+      <trkpt lat="46.059885" lon="32.884595"></trkpt>
+      <trkpt lat="46.037846" lon="33.062091"></trkpt>
+      <trkpt lat="46.104823" lon="32.908129"></trkpt>
+  </trkseg></trk>
+</gpx>

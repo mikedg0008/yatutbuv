@@ -1,0 +1,4 @@
+# The original .umap still holds old private data (former Lived layer) — keep it local.
+backups/
+__pycache__/
+*.pyc

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="yatutbuv" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk><name>New file 1</name><trkseg>
+      <trkpt lat="44.614552" lon="33.519052"></trkpt>
+      <trkpt lat="44.622714" lon="33.507747"></trkpt>
+      <trkpt lat="44.613026" lon="33.43141"></trkpt>
+      <trkpt lat="44.588511" lon="33.374197"></trkpt>
+      <trkpt lat="44.561474" lon="33.37029"></trkpt>
+      <trkpt lat="44.485981" lon="33.481242"></trkpt>
+      <trkpt lat="44.405564" lon="33.659834"></trkpt>
+      <trkpt lat="44.373746" lon="33.753503"></trkpt>
+      <trkpt lat="44.3851" lon="33.79632"></trkpt>
+  </trkseg></trk>
+</gpx>

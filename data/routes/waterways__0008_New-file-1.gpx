@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="yatutbuv" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk><name>New file 1</name><trkseg>
+      <trkpt lat="53.391384" lon="-6.070004"></trkpt>
+      <trkpt lat="53.391861" lon="-6.068501"></trkpt>
+      <trkpt lat="53.3921" lon="-6.066999"></trkpt>
+      <trkpt lat="53.396043" lon="-6.069704"></trkpt>
+      <trkpt lat="53.39664" lon="-6.063593"></trkpt>
+      <trkpt lat="53.393773" lon="-6.049768"></trkpt>
+      <trkpt lat="53.387321" lon="-6.044158"></trkpt>
+      <trkpt lat="53.384168" lon="-6.043433"></trkpt>
+      <trkpt lat="53.379746" lon="-6.042231"></trkpt>
+      <trkpt lat="53.379746" lon="-6.035419"></trkpt>
+      <trkpt lat="53.388769" lon="-6.037723"></trkpt>
+      <trkpt lat="53.400817" lon="-6.056553"></trkpt>
+      <trkpt lat="53.408342" lon="-6.056653"></trkpt>
+      <trkpt lat="53.410492" lon="-6.062864"></trkpt>
+      <trkpt lat="53.409297" lon="-6.07158"></trkpt>
+      <trkpt lat="53.405953" lon="-6.072081"></trkpt>
+      <trkpt lat="53.398966" lon="-6.070278"></trkpt>
+      <trkpt lat="53.396935" lon="-6.068775"></trkpt>
+      <trkpt lat="53.395143" lon="-6.068274"></trkpt>
+      <trkpt lat="53.392096" lon="-6.06607"></trkpt>
+  </trkseg></trk>
+</gpx>

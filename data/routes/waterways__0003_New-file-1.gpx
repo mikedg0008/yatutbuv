@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="yatutbuv" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk><name>New file 1</name><trkseg>
+      <trkpt lat="22.290053" lon="114.152361"></trkpt>
+      <trkpt lat="22.293328" lon="114.1456"></trkpt>
+      <trkpt lat="22.289098" lon="114.108508"></trkpt>
+      <trkpt lat="22.236843" lon="114.043295"></trkpt>
+      <trkpt lat="22.212281" lon="114.005968"></trkpt>
+      <trkpt lat="22.190696" lon="113.853003"></trkpt>
+      <trkpt lat="22.165888" lon="113.622708"></trkpt>
+      <trkpt lat="22.164875" lon="113.599864"></trkpt>
+      <trkpt lat="22.171862" lon="113.58219"></trkpt>
+      <trkpt lat="22.168437" lon="113.575604"></trkpt>
+      <trkpt lat="22.166766" lon="113.576168"></trkpt>
+  </trkseg></trk>
+</gpx>
