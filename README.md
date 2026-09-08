@@ -1,120 +1,173 @@
-# yatutbuv — travel log project
+# Yatutbuv — your travel log
 
-A small, fast, OpenStreetMap-based travel log. **Flat files are the database;
-the uMap map is a generated view that auto-refreshes from GitHub.**
+Keep your existing uMap map, account and Git repository. This upgrade makes the
+local records easier to maintain; it does not replace the map.
 
-Your original 24 MB uMap map is now ~3.6 MB of clean data, split so it's easy
-to edit and cheap to render. (The old "Lived" layer is deliberately not part of
-this project — maintain those pins by hand in uMap if you want them.)
+**Open the editor: double-click `Start.cmd`.** If Python or Shapely is missing,
+run `setup.cmd` once. It creates a local Python environment and uses your
+existing Python installation (Python 3.10 or newer, with Tcl/Tk).
 
+## The normal workflow
+
+1. Open **Start.cmd**.
+2. Choose **Places** or **Routes**. Use **Find** to locate an existing record.
+3. **Add**, **Edit**, **Delete**, or select a route and **Replace GPX**.
+4. Click **Build files** to check the data and generate the map layers.
+5. Use **Publish to GitHub** if your uMap layers already read the hosted files.
+   Otherwise use the manual update instructions below.
+
+Everything you save in the editor is initially local. Opening the editor,
+saving a record or building files does not change the live map. Publishing
+requires clicking the publishing button and confirming it.
+
+## Places
+
+Double-click a row to edit it. Enter latitude/longitude, or enter the place
+name and optional country, then **Find coordinates** and choose the correct
+result. A result is never silently selected for you.
+
+Dates may be blank, a year (`2026`), or a full date (`2026-09-07`). The tool does
+not invent dates for old visits. One existing place remains one record: use
+the description for additional visit dates if that is your current convention.
+
+## Routes
+
+**Add GPX:** choose a complete journey GPX, give it a name, select a mode and save.
+The original is archived unchanged in `data/routes_original/`; a cleaned GPX
+goes to `data/routes/`. Distance and altitude summaries come from the original.
+See [Route housekeeping](docs/ROUTES.md) for the full step-by-step workflow.
+
+**Re-clean:** regenerate a selected route from its original with Standard,
+Fine or All points detail. Old routes are only converted when you choose this.
+
+**Replace:** select an existing journey, click **Replace GPX**, choose the
+better file and save. Its ID, name, date and notes stay attached to that journey.
+The previous GPX is backed up and removed from the active source folder.
+
+**Edit:** change the name, mode, date, notes or accuracy label without choosing
+a GPX. The geometry stays the same.
+
+**Delete:** removes the journey from the index and active GPX folder, after a
+local backup. Build and publish to remove it from the generated map too.
+
+Optional accuracy labels: `recorded`, `reconstructed`, `approximate`. Existing
+routes start blank; the upgrade does not guess their provenance.
+
+Distances shown in the editor, map and statistics are calculated from GPX
+coordinates. Separate recording segments are not connected across gaps. GPX
+track points (`trkpt`) and route points (`rtept`) are supported. Elevation extrema
+are retained for imported routes; elevation and elapsed time are not used in
+distance calculations. These are geometry-derived distances, not odometer
+readings. GPX files containing both tracks and routes contribute both; use a
+file containing just the representation you intend to log.
+
+## Which files matter?
+
+| Location | Purpose |
+|---|---|
+| `Start.cmd` | Your normal entry point |
+| `data/points.csv` | Editable places |
+| `data/routes.csv` | Authoritative list of included journeys |
+| `data/routes_original/*.gpx` | Full originals, local only; include in personal backups |
+| `data/routes/*.gpx` | Lightweight imported routes and unchanged legacy routes |
+| `build/*.geojson` | Generated layers, with the same names as before |
+| `build/stats.md` | Current counts and calculated distances |
+| `exports/yatutbuv.umap` | Optional local full-map import file |
+| `backups/` | Backups made before edits and the previous successful build |
+| `map_config.json` | Map URL, layer names and export styling |
+| `scripts/`, `tests/` | Implementation; normally leave these alone |
+
+Do not edit `build/`. It is generated. The builder uses the route index;
+unindexed GPX files are ignored with a warning. Missing indexed GPX files stop
+the build before output changes. Empty layers are exported as empty GeoJSON
+so old records cannot survive in stale output files.
+
+The first editor launch adds stable IDs and a route accuracy column to old
+CSVs, after backing them up. It preserves existing rows, values and extra
+columns. You may still edit CSVs directly. Keep the ID column unchanged, use
+UTF-8, and close Excel before editing in the desktop window. Both comma and
+semicolon separators and decimal dots/commas are accepted. Close the editor
+before editing CSVs manually. For archived imports, CSV `distance_km` retains
+distance calculated BEFORE cleaning. Builds use this saved value; legacy routes
+still calculate it from their active GPX. Leave computed fields and file links
+alone and use Replace GPX or Re-clean to update them.
+
+## Updating the same uMap map
+
+Map: https://umap.openstreetmap.fr/en/map/yatutbuv_1438641
+
+**Already using remote-data layers?** Continue with the existing setup. All 13
+GeoJSON layer filenames are retained, including `Lodge`. Publish commits the
+known project files and pushes to the existing Git remote. Once hosting has
+updated, refresh the map. The tool reports a successful Git push, not proof
+that hosting has deployed or uMap has fetched it.
+
+**Still using embedded layers?** A Git push cannot update those automatically.
+The supplied original backup has embedded layers; it does not establish the
+current live configuration. You can keep the same map and choose either:
+
+- **Manual updates:** build, then open the map in edit mode. Import the relevant
+  `build/<layer>.geojson` into the corresponding existing layer, using the
+  replacement option rather than appending. Check the result before saving.
+  This preserves that layer's existing style. Download a fresh full-map backup
+  before the first update. `Output folder` opens `exports/`; `build/` is beside it.
+- **Automatic updates:** in each existing layer's Remote data settings, use its
+  existing GitHub Pages URL for `build/<layer>.geojson`, format GeoJSON. This is
+  a one-time connection on the same map, not a new account or map. Start with
+  one layer and check it before changing the rest.
+
+`exports/yatutbuv.umap` is available when a whole-map import is wanted. Its
+styling comes from the supplied backup (with the local `Lodge` name), so use
+per-layer imports if you have since changed map styles. Do not append the
+full-map file to an already populated map: it can duplicate layers. No script
+performs imports or changes live uMap settings for you.
+
+See uMap's user documentation: https://discover.umap-project.org/
+
+## Backups and undo
+
+Before each editor save/delete, the affected CSV and old GPX (when relevant)
+are copied under `backups/edit-<timestamp>-<suffix>/`, using their original
+relative paths. To undo, close the editor and copy those files back to the same
+relative paths in the project, then rebuild. A replacement GPX left unindexed
+after undo is ignored. Restoring an older CSV restores the whole table to that
+time, so it also undoes later edits to that table. Git remains your long-term
+history. Backups are local and can be copied to your normal backup storage.
+
+The publishing tool explicitly excludes `backups/`, `exports/` and
+`build_private/` and `data/routes_original/` from staging. Back up originals
+separately: Git publishing is not their backup. This does not remove files already committed
+there or erase Git history. The existing `Lodge` layer remains included in
+`build/`, just as in the supplied project; its contents match the old `Lived`
+layer. Publication is not a privacy filter.
+
+## Troubleshooting
+
+- **Missing GPX:** restore the named file, or deliberately remove its row from
+  `routes.csv` if that journey should no longer be logged. Do not rerun the
+  original migration. It is disabled to protect current records.
+- **Project already open:** close the other editor/command and retry. Locks are
+  released automatically when the owning process exits.
+- **Git push failed:** local data and the build remain. Check connectivity or
+  existing Git credentials, then retry Publish. There is no automatic force
+  push, merge or repository reconfiguration.
+- **Unrelated files staged:** finish or unstage that separate Git work first.
+- **Map unchanged after push:** check deployment and the layer's Remote data
+  settings. Embedded layers require an import.
+- **Python/Tk/Shapely error:** run `setup.cmd`; if Python itself is absent, use
+  your normal Python installer with Tcl/Tk enabled. Git must already work for
+  publishing, as in your previous setup.
+
+Optional commands (close the editor first):
+
+```text
+python scripts/build_map.py --check
+python scripts/build_map.py
+python scripts/publish.py
+python -m unittest discover -s tests -v
 ```
-yatutbuv/
-├─ data/                      ← YOUR SOURCE OF TRUTH (edit these)
-│  ├─ points.csv             ← one row per place (686 rows)
-│  ├─ routes.csv             ← index of routes (293 rows: name, mode, date, km)
-│  └─ routes/                ← one GPX per route (drop new ones here)
-├─ build/                     ← generated GeoJSON (this is what gets published)
-├─ scripts/
-│  ├─ extract_from_umap.py   ← one-time migration (already run — don't run again)
-│  ├─ build_map.py           ← run after every edit
-│  └─ add_point.py           ← quick "search a place → add a row" helper
-├─ backups/                   ← your original .umap (kept LOCAL, never pushed)
-├─ docs/onedrive_photo_gps_task.md  ← notes for the optional photo-GPS idea
-├─ requirements.txt
-└─ .gitignore
-```
 
-## 0. One-time setup
-
-```bash
-cd C:\Users\mykha\OneDrive\Car\yatutbuv
-pip install -r requirements.txt      # just needs "shapely"
-python scripts\build_map.py          # regenerate build/ from the data
-```
-
-## 1. Daily workflow
-
-**Add a place** — edit `data/points.csv` (add a row), or:
-
-```bash
-python scripts\add_point.py --layer Hotels --country AT "Hotel Sacher Vienna"
-python scripts\add_point.py --layer Places "Historic Centre of Vienna" --date 2025
-python scripts\add_point.py --layer Ski --country CH "Titlis" --lat 46.77 --lon 8.43
-```
-
-**Add a route** — export it as **GPX**, drop the file into `data/routes/`, then
-add one line to `data/routes.csv`:
-
-```
-file,mode,name,date,distance_km,notes
-2027__Krakow-Vienna.gpx,drive,2027 Kraków–Vienna,2027,,
-```
-
-Leave `distance_km` blank; the build fills it in. `mode` ∈ {drive, ride, train,
-waterways}.
-
-**Rebuild** after any change:
-
-```bash
-python scripts\build_map.py
-```
-
-## 2. Publish to GitHub (so uMap auto-refreshes)
-
-Nothing sensitive lives in this project anymore, so the whole thing can go in
-one **public** repo — except `backups/`, which still holds the original .umap
-with the old private data and is git-ignored.
-
-Once:
-1. Create a **public** repo (e.g. `yatutbuv`) and push this folder.
-   Verify `git status` never lists anything under `backups/`.
-2. **Settings → Pages → Deploy from a branch → main / root.**
-   Files are then served at
-   `https://<your-user>.github.io/yatutbuv/build/<Layer>.geojson`
-   (GitHub Pages sends the `Access-Control-Allow-Origin: *` header uMap needs —
-   public sites only).
-
-Every update after that:
-```bash
-python scripts\build_map.py
-git add -A && git commit -m "trip update" && git push
-```
-
-## 3. Wire uMap to the published data (one-time, ~15 min)
-
-For each layer (Places, Hotels, Airports, Transport, Football_stadiums, Ski,
-Border_Crossing, Car_Rentals, drive, ride, train, waterways):
-
-1. Edit the layer → **Remote data**.
-2. **URL**: `https://<your-user>.github.io/yatutbuv/build/<Layer>.geojson`
-3. **Format**: geojson. Leave "dynamic" **off**.
-4. Delete the old inline features (the remote file replaces them).
-5. **Point layers** → set display mode to **Clustered** (keeps it fast as it grows).
-6. **Route layers** → optionally set a minimum zoom so they don't draw at
-   whole-continent view.
-
-## 4. Gotchas worth knowing
-
-- **Excel + European locale**: opening `points.csv` in Excel may save it with
-  `;` separators / comma decimals. The scripts tolerate that. (LibreOffice or
-  Google Sheets avoid it entirely.)
-- **OneDrive + Git**: a `.git` folder syncing through OneDrive can occasionally
-  conflict. If git complains about locked objects, move the repo out of the
-  OneDrive path.
-- **Migration fixes applied**: `UK`→`GB` (16 pts) and `NE`→`NL` (Schiphol,
-  Eindhoven). Years pulled from descriptions into the `date` column. Route
-  geometry simplified for display; the full original is in `backups/`.
-
-## 5. Housekeeping rules
-
-1. **One trip = one complete, real journey.** Never truncate a route to skip an
-   overlap with another; never let one record depend on another.
-2. **Edit `data/`, never `build/` or the uMap layers directly** — `build/` is
-   disposable output.
-3. **Controlled vocabularies**: `country` = ISO 3166 alpha-2; `mode` ∈
-   {drive, ride, train, waterways}; `date` = `YYYY` or `YYYY-MM-DD`.
-4. **Date everything you can** — it's the axis for every stat.
-5. **Store routes as exported; let `build_map.py` simplify.** Don't pre-trim.
-6. **Pick one rule for repeat visits** (one pin with many dates, or one pin per
-   visit) and stick to it.
-7. **Commit to git regularly** — that's your undo and history.
+If using the local environment, replace `python` with
+`.venv\Scripts\python.exe`. The old `add_point.py` command remains available;
+address searches now ask you to choose the result. Photo-GPS extraction remains
+optional and separate from this upgrade.

@@ -1,95 +1,63 @@
+"""Add a place from coordinates or a confirmed Nominatim result.
+The desktop alternative is Start.cmd > Places > Add.
 """
-add_point.py  —  fast way to add one place to points.csv.
-
-It mirrors your current habit ("search a location, pick it") but writes a clean
-structured row instead of a hand-typed map pin.
-
-Two modes:
-
-  1) Geocode a search string (uses OpenStreetMap's free Nominatim service):
-       python add_point.py --layer Hotels --country AT "Hotel Sacher Vienna"
-       python add_point.py --layer Places "Historic Centre of Vienna" --date 2025
-
-  2) Add exact coordinates yourself (no lookup):
-       python add_point.py --layer Ski --country CH "Titlis" --lat 46.77 --lon 8.43
-
-After adding, run build_map.py to regenerate the map data.
-
-Nominatim's usage policy asks for a real User-Agent and <=1 request/second;
-this script sends both and is fine for occasional manual use. Don't loop it.
-"""
-import argparse, csv, io, os, sys, time, json
-import urllib.parse, urllib.request
-
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
-POINTS = os.path.join(ROOT, "data", "points.csv")
-FIELDS = ["layer", "country", "name", "lat", "lon", "date", "description", "color"]
-UA = "yatutbuv-travellog/1.0 (personal use)"
+import argparse
+import json
+import sys
+import time
+import urllib.parse
+import urllib.request
+from travel_core import ROOT, POINT_FIELDS, TravelError, ensure_ids, save_record
 
 
-def geocode(query):
-    url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode(
-        {"q": query, "format": "jsonv2", "limit": 5, "addressdetails": 1})
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    time.sleep(1)  # be polite
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return json.load(r)
-
-
-def read_delim(path):
-    with open(path, encoding="utf-8-sig") as f:
-        first = f.readline()
-    return ";" if first.count(";") > first.count(",") else ","
-
-
-def append_row(row):
-    exists = os.path.exists(POINTS)
-    delim = read_delim(POINTS) if exists else ","
-    with open(POINTS, "a", newline="", encoding="utf-8-sig") as f:
-        w = csv.DictWriter(f, fieldnames=FIELDS, delimiter=delim)
-        if not exists:
-            w.writeheader()
-        w.writerow(row)
+def geocode(query, country=''):
+    params = {'q':query, 'format':'jsonv2', 'limit':5, 'addressdetails':1}
+    if country:
+        params['countrycodes'] = country.lower()
+    req = urllib.request.Request('https://nominatim.openstreetmap.org/search?' + urllib.parse.urlencode(params),
+                                 headers={'User-Agent':'yatutbuv-travellog/2.0 (occasional manual place lookup)'})
+    time.sleep(1.1)
+    with urllib.request.urlopen(req, timeout=20) as response:
+        return json.load(response)
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Add one place to points.csv")
-    ap.add_argument("query", nargs="+", help="search text, or the place name if --lat/--lon given")
-    ap.add_argument("--layer", required=True, help="e.g. Hotels, Places, Airports, Transport")
-    ap.add_argument("--country", default="", help="ISO code, e.g. AT (optional; auto-filled from geocoder)")
-    ap.add_argument("--name", default="", help="override the stored name")
-    ap.add_argument("--date", default="", help="year or date")
-    ap.add_argument("--desc", default="", help="description / note")
-    ap.add_argument("--color", default="", help="optional per-point colour, e.g. #ffea00")
-    ap.add_argument("--lat", type=float)
-    ap.add_argument("--lon", type=float)
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('query', nargs='+')
+    for name in ['layer','country','name','date','desc','color']:
+        ap.add_argument('--'+name, default='', required=name=='layer')
+    ap.add_argument('--lat', type=float)
+    ap.add_argument('--lon', type=float)
     args = ap.parse_args()
-
-    query = " ".join(args.query)
-    name = args.name or query
-    country = args.country.upper()
-    lat, lon = args.lat, args.lon
-
-    if lat is None or lon is None:
-        hits = geocode(query)
+    if (args.lat is None) != (args.lon is None):
+        ap.error('Supply both --lat and --lon.')
+    query = ' '.join(args.query)
+    lat, lon, country = args.lat, args.lon, args.country.upper()
+    if lat is None:
+        hits = geocode(query,country)
         if not hits:
-            sys.exit(f"No result for: {query}")
-        top = hits[0]
-        lat, lon = float(top["lat"]), float(top["lon"])
-        cc = (top.get("address", {}) or {}).get("country_code", "").upper()
-        if not country and cc:
-            country = cc
-        print(f"Matched: {top.get('display_name','')[:90]}")
-        print(f"  -> {lat:.6f}, {lon:.6f}  country={country or '?'}")
+            raise TravelError('No results. Try a more specific name or enter coordinates.')
+        for i,h in enumerate(hits,1):
+            print(f"{i}. {h['display_name']}")
+        choice = input('Choose a result number, or Enter to cancel: ').strip()
+        if not choice:
+            return
+        if not choice.isdigit() or not 1 <= int(choice) <= len(hits):
+            raise TravelError('Invalid selection; no place was saved.')
+        hit = hits[int(choice)-1]
+        lat, lon = hit['lat'], hit['lon']
+        country = country or hit.get('address',{}).get('country_code','').upper()
+    from project_lock import project_lock
+    with project_lock(ROOT):
+        ensure_ids()
+        save_record('points', {'layer':args.layer,'name':args.name or query,'country':country,
+                              'lat':lat,'lon':lon,'date':args.date,'description':args.desc,'color':args.color})
+    print('Place saved. Open Start.cmd to build and publish when ready.')
 
-    row = {"layer": args.layer, "country": country, "name": name,
-           "lat": round(lat, 6), "lon": round(lon, 6),
-           "date": args.date, "description": args.desc, "color": args.color}
-    append_row(row)
-    print(f"Added to points.csv: [{args.layer}] {name}")
-    print("Now run:  python scripts/build_map.py")
 
-
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    try:
+        main()
+    except (TravelError,OSError,ValueError) as e:
+        print(f'ERROR: {e}',file=sys.stderr)
+        sys.exit(1)

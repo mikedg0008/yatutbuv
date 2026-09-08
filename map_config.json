@@ -1,0 +1,812 @@
+{
+  "map_url": "https://umap.openstreetmap.fr/en/map/yatutbuv_1438641",
+  "simplify_degrees": 0.0001,
+  "coordinate_decimals": 5,
+  "point_layers": [
+    "Airports",
+    "Border_Crossing",
+    "Car_Rentals",
+    "Football_stadiums",
+    "Hotels",
+    "Lodge",
+    "Places",
+    "Ski",
+    "Transport"
+  ],
+  "route_modes": [
+    "drive",
+    "ride",
+    "train",
+    "waterways"
+  ],
+  "map_properties": {
+    "name": "Mykhaylo",
+    "zoom": 5,
+    "center": {
+      "lat": 46.7549166192819,
+      "lng": 15.820312500000002
+    },
+    "fields": [],
+    "slideshow": {},
+    "tilelayer": {
+      "tms": false,
+      "name": "OSM Piano FR",
+      "maxZoom": 20,
+      "minZoom": 0,
+      "attribution": "map data © [[http://osm.org/copyright|OpenStreetMap contributors]] under ODbL - tiles © [[https://github.com/tilery/pianoforte|Min. Aff. Étrangères]]",
+      "url_template": "https://a.piano.tiles.quaidorsay.fr/fr{r}/{z}/{x}/{y}.png"
+    },
+    "limitBounds": {},
+    "zoomControl": true,
+    "fullscreenControl": true
+  },
+  "map_geometry": {
+    "type": "Point",
+    "coordinates": [
+      15.820312500000002,
+      46.7549166192819
+    ]
+  },
+  "layer_settings": {
+    "drive": {
+      "name": "drive",
+      "fields": [
+        {
+          "key": "name",
+          "type": "String"
+        },
+        {
+          "key": "description",
+          "type": "Text"
+        }
+      ],
+      "weight": 2,
+      "opacity": 1,
+      "browsable": true,
+      "inCaption": true,
+      "remoteData": {},
+      "iconOpacity": 1,
+      "displayOnLoad": true
+    },
+    "ride": {
+      "name": "ride",
+      "color": "Green",
+      "fields": [
+        {
+          "key": "name",
+          "type": "String"
+        },
+        {
+          "key": "description",
+          "type": "Text"
+        }
+      ],
+      "weight": 2,
+      "opacity": 1,
+      "browsable": true,
+      "inCaption": true,
+      "remoteData": {},
+      "displayOnLoad": true
+    },
+    "train": {
+      "name": "train",
+      "color": "Black",
+      "fields": [
+        {
+          "key": "name",
+          "type": "String"
+        },
+        {
+          "key": "description",
+          "type": "Text"
+        }
+      ],
+      "weight": 2,
+      "opacity": 1,
+      "browsable": true,
+      "inCaption": true,
+      "remoteData": {},
+      "displayOnLoad": true
+    },
+    "waterways": {
+      "name": "waterways",
+      "color": "Cyan",
+      "fields": [
+        {
+          "key": "name",
+          "type": "String"
+        },
+        {
+          "key": "description",
+          "type": "Text"
+        }
+      ],
+      "opacity": 1,
+      "iconSize": 56,
+      "browsable": true,
+      "inCaption": true,
+      "remoteData": {},
+      "displayOnLoad": true
+    },
+    "Airports": {
+      "name": "Airports",
+      "fields": [
+        {
+          "key": "name",
+          "type": "String"
+        },
+        {
+          "key": "styleUrl",
+          "type": "String"
+        },
+        {
+          "key": "label-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon-opacity",
+          "type": "String"
+        },
+        {
+          "key": "icon-color",
+          "type": "String"
+        },
+        {
+          "key": "icon-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon",
+          "type": "String"
+        },
+        {
+          "key": "osm_type",
+          "type": "String"
+        },
+        {
+          "key": "osm_id",
+          "type": "String"
+        },
+        {
+          "key": "osm_key",
+          "type": "String"
+        },
+        {
+          "key": "osm_value",
+          "type": "String"
+        },
+        {
+          "key": "type",
+          "type": "String"
+        },
+        {
+          "key": "street",
+          "type": "String"
+        },
+        {
+          "key": "locality",
+          "type": "String"
+        },
+        {
+          "key": "district",
+          "type": "String"
+        },
+        {
+          "key": "city",
+          "type": "String"
+        },
+        {
+          "key": "county",
+          "type": "String"
+        },
+        {
+          "key": "state",
+          "type": "String"
+        },
+        {
+          "key": "country",
+          "type": "String"
+        },
+        {
+          "key": "postcode",
+          "type": "String"
+        },
+        {
+          "key": "countrycode",
+          "type": "String"
+        }
+      ],
+      "weight": 1,
+      "iconUrl": "✈️",
+      "iconSize": 12,
+      "browsable": true,
+      "fillColor": "LimeGreen",
+      "iconClass": "Raw",
+      "inCaption": true,
+      "remoteData": {},
+      "displayOnLoad": true
+    },
+    "Football_stadiums": {
+      "fill": true,
+      "name": "Football_stadiums",
+      "fields": [
+        {
+          "key": "name",
+          "type": "String"
+        },
+        {
+          "key": "styleUrl",
+          "type": "String"
+        },
+        {
+          "key": "label-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon-opacity",
+          "type": "String"
+        },
+        {
+          "key": "icon-color",
+          "type": "String"
+        },
+        {
+          "key": "icon-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon",
+          "type": "String"
+        },
+        {
+          "key": "description",
+          "type": "Text"
+        },
+        {
+          "key": "osm_type",
+          "type": "String"
+        },
+        {
+          "key": "osm_id",
+          "type": "String"
+        },
+        {
+          "key": "osm_key",
+          "type": "String"
+        },
+        {
+          "key": "osm_value",
+          "type": "String"
+        },
+        {
+          "key": "type",
+          "type": "String"
+        },
+        {
+          "key": "housenumber",
+          "type": "String"
+        },
+        {
+          "key": "street",
+          "type": "String"
+        },
+        {
+          "key": "locality",
+          "type": "String"
+        },
+        {
+          "key": "district",
+          "type": "String"
+        },
+        {
+          "key": "city",
+          "type": "String"
+        },
+        {
+          "key": "state",
+          "type": "String"
+        },
+        {
+          "key": "country",
+          "type": "String"
+        },
+        {
+          "key": "postcode",
+          "type": "String"
+        },
+        {
+          "key": "countrycode",
+          "type": "String"
+        }
+      ],
+      "weight": 1,
+      "iconUrl": "http://umap.openstreetmap.fr/uploads/pictogram/soccer.svg",
+      "iconSize": 12,
+      "browsable": true,
+      "fillColor": "DarkGreen",
+      "iconClass": "Raw",
+      "inCaption": true,
+      "remoteData": {},
+      "displayOnLoad": true
+    },
+    "Places": {
+      "name": "Places",
+      "fields": [
+        {
+          "key": "name",
+          "type": "String"
+        },
+        {
+          "key": "description",
+          "type": "Text"
+        },
+        {
+          "key": "styleUrl",
+          "type": "String"
+        },
+        {
+          "key": "label-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon-opacity",
+          "type": "String"
+        },
+        {
+          "key": "icon-color",
+          "type": "String"
+        },
+        {
+          "key": "icon-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon",
+          "type": "String"
+        },
+        {
+          "key": "osm_type",
+          "type": "String"
+        },
+        {
+          "key": "osm_id",
+          "type": "String"
+        },
+        {
+          "key": "osm_key",
+          "type": "String"
+        },
+        {
+          "key": "osm_value",
+          "type": "String"
+        },
+        {
+          "key": "type",
+          "type": "String"
+        },
+        {
+          "key": "street",
+          "type": "String"
+        },
+        {
+          "key": "locality",
+          "type": "String"
+        },
+        {
+          "key": "district",
+          "type": "String"
+        },
+        {
+          "key": "city",
+          "type": "String"
+        },
+        {
+          "key": "county",
+          "type": "String"
+        },
+        {
+          "key": "state",
+          "type": "String"
+        },
+        {
+          "key": "country",
+          "type": "String"
+        },
+        {
+          "key": "postcode",
+          "type": "String"
+        },
+        {
+          "key": "countrycode",
+          "type": "String"
+        },
+        {
+          "key": "housenumber",
+          "type": "String"
+        }
+      ],
+      "iconUrl": "📍",
+      "browsable": true,
+      "iconClass": "Raw",
+      "inCaption": true,
+      "remoteData": {},
+      "displayOnLoad": true
+    },
+    "Hotels": {
+      "name": "Hotels",
+      "fields": [
+        {
+          "key": "name",
+          "type": "String"
+        },
+        {
+          "key": "description",
+          "type": "Text"
+        },
+        {
+          "key": "styleUrl",
+          "type": "String"
+        },
+        {
+          "key": "label-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon-opacity",
+          "type": "String"
+        },
+        {
+          "key": "icon-color",
+          "type": "String"
+        },
+        {
+          "key": "icon-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon",
+          "type": "String"
+        },
+        {
+          "key": "osm_type",
+          "type": "String"
+        },
+        {
+          "key": "osm_id",
+          "type": "String"
+        },
+        {
+          "key": "osm_key",
+          "type": "String"
+        },
+        {
+          "key": "osm_value",
+          "type": "String"
+        },
+        {
+          "key": "type",
+          "type": "String"
+        },
+        {
+          "key": "housenumber",
+          "type": "String"
+        },
+        {
+          "key": "street",
+          "type": "String"
+        },
+        {
+          "key": "locality",
+          "type": "String"
+        },
+        {
+          "key": "district",
+          "type": "String"
+        },
+        {
+          "key": "city",
+          "type": "String"
+        },
+        {
+          "key": "state",
+          "type": "String"
+        },
+        {
+          "key": "country",
+          "type": "String"
+        },
+        {
+          "key": "postcode",
+          "type": "String"
+        },
+        {
+          "key": "countrycode",
+          "type": "String"
+        },
+        {
+          "key": "county",
+          "type": "String"
+        }
+      ],
+      "iconUrl": "🏨",
+      "browsable": true,
+      "iconClass": "Raw",
+      "inCaption": true,
+      "remoteData": {},
+      "displayOnLoad": true
+    },
+    "Transport": {
+      "name": "Transport",
+      "fields": [
+        {
+          "key": "name",
+          "type": "String"
+        },
+        {
+          "key": "styleUrl",
+          "type": "String"
+        },
+        {
+          "key": "label-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon-opacity",
+          "type": "String"
+        },
+        {
+          "key": "icon-color",
+          "type": "String"
+        },
+        {
+          "key": "icon-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon",
+          "type": "String"
+        },
+        {
+          "key": "description",
+          "type": "Text"
+        }
+      ],
+      "iconUrl": "http://umap.openstreetmap.fr/uploads/pictogram/bus-stop.svg",
+      "iconSize": 12,
+      "browsable": true,
+      "iconClass": "Raw",
+      "inCaption": true,
+      "remoteData": {},
+      "displayOnLoad": true
+    },
+    "Ski": {
+      "name": "Ski",
+      "fields": [
+        {
+          "key": "name",
+          "type": "String"
+        },
+        {
+          "key": "description",
+          "type": "Text"
+        },
+        {
+          "key": "styleUrl",
+          "type": "String"
+        },
+        {
+          "key": "label-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon-opacity",
+          "type": "String"
+        },
+        {
+          "key": "icon-color",
+          "type": "String"
+        },
+        {
+          "key": "icon-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon",
+          "type": "String"
+        }
+      ],
+      "iconUrl": "⛷",
+      "browsable": true,
+      "iconClass": "Raw",
+      "inCaption": true,
+      "remoteData": {},
+      "displayOnLoad": true
+    },
+    "Border_Crossing": {
+      "name": "Border_Crossing",
+      "fields": [
+        {
+          "key": "name",
+          "type": "String"
+        },
+        {
+          "key": "styleUrl",
+          "type": "String"
+        },
+        {
+          "key": "label-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon-opacity",
+          "type": "String"
+        },
+        {
+          "key": "icon-color",
+          "type": "String"
+        },
+        {
+          "key": "icon-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon",
+          "type": "String"
+        }
+      ],
+      "iconUrl": "⛔️",
+      "iconSize": 12,
+      "browsable": true,
+      "iconClass": "Raw",
+      "inCaption": true,
+      "remoteData": {},
+      "displayOnLoad": true
+    },
+    "Car_Rentals": {
+      "name": "Car_Rentals",
+      "fields": [
+        {
+          "key": "name",
+          "type": "String"
+        },
+        {
+          "key": "styleUrl",
+          "type": "String"
+        },
+        {
+          "key": "label-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon-opacity",
+          "type": "String"
+        },
+        {
+          "key": "icon-color",
+          "type": "String"
+        },
+        {
+          "key": "icon-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon",
+          "type": "String"
+        },
+        {
+          "key": "description",
+          "type": "Text"
+        },
+        {
+          "key": "osm_type",
+          "type": "String"
+        },
+        {
+          "key": "osm_id",
+          "type": "String"
+        },
+        {
+          "key": "osm_key",
+          "type": "String"
+        },
+        {
+          "key": "osm_value",
+          "type": "String"
+        },
+        {
+          "key": "type",
+          "type": "String"
+        },
+        {
+          "key": "housenumber",
+          "type": "String"
+        },
+        {
+          "key": "street",
+          "type": "String"
+        },
+        {
+          "key": "locality",
+          "type": "String"
+        },
+        {
+          "key": "district",
+          "type": "String"
+        },
+        {
+          "key": "city",
+          "type": "String"
+        },
+        {
+          "key": "state",
+          "type": "String"
+        },
+        {
+          "key": "country",
+          "type": "String"
+        },
+        {
+          "key": "postcode",
+          "type": "String"
+        },
+        {
+          "key": "countrycode",
+          "type": "String"
+        },
+        {
+          "key": "county",
+          "type": "String"
+        }
+      ],
+      "iconUrl": "🚗",
+      "browsable": true,
+      "iconClass": "Raw",
+      "inCaption": true,
+      "remoteData": {},
+      "displayOnLoad": true
+    },
+    "Lodge": {
+      "name": "Lodge",
+      "fields": [
+        {
+          "key": "name",
+          "type": "String"
+        },
+        {
+          "key": "styleUrl",
+          "type": "String"
+        },
+        {
+          "key": "label-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon-opacity",
+          "type": "String"
+        },
+        {
+          "key": "icon-color",
+          "type": "String"
+        },
+        {
+          "key": "icon-scale",
+          "type": "String"
+        },
+        {
+          "key": "icon",
+          "type": "String"
+        },
+        {
+          "key": "description",
+          "type": "Text"
+        }
+      ],
+      "iconUrl": "🏠",
+      "browsable": true,
+      "iconClass": "Raw",
+      "inCaption": true,
+      "remoteData": {},
+      "displayOnLoad": true
+    }
+  }
+}

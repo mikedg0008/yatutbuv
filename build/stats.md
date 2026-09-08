@@ -1,20 +1,15 @@
-# Travel log — stats
+# Travel log
 
-**Points:** 715 across 9 layers
-- Airports: 68
-- Border_Crossing: 19
-- Car_Rentals: 6
-- Football_stadiums: 32
-- Hotels: 137
-- Lodge: 29
-- Places: 315
-- Ski: 8
-- Transport: 101
+Places: 715
+Routes: 304
 
-**Routes by mode:**
-- drive: 109 routes, 44,070 km
-- ride: 94 routes, 15,027 km
-- train: 80 routes, 24,702 km
-- waterways: 10 routes, 763 km
+| Mode | Routes | km |
+|---|---:|---:|
+| drive | 120 | 48804.9 |
+| ride | 94 | 15027.2 |
+| train | 80 | 24701.7 |
+| waterways | 10 | 762.8 |
 
-**Total logged distance:** 84,562 km
+Total distance: 89296.7 km
+
+Distances are calculated from source GPX segments, before display simplification.

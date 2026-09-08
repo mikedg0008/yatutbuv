@@ -2,3 +2,10 @@
 backups/
 __pycache__/
 *.pyc
+
+.venv/
+exports/
+build_private/
+.build-*/
+
+data/routes_original/
