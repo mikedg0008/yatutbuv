@@ -408,11 +408,11 @@ def build(root=ROOT, check_only=False):
             settings = dict(cfg.get('layer_settings',{}).get(name,{}), name=name, remoteData={})
             exported['layers'].append({'type':'FeatureCollection','properties':settings,'features':layers[name]})
         output = root/'build'
-        previous = root/'backups/previous-build'
-        previous.parent.mkdir(parents=True,exist_ok=True)
-        if previous.exists():
-            shutil.rmtree(previous)
+        backups = root/'backups'
+        backups.mkdir(parents=True,exist_ok=True)
+        previous = None
         if output.exists():
+            previous = backups / ('build-' + dt.datetime.now().strftime('%Y%m%d-%H%M%S-') + uuid.uuid4().hex[:8])
             output.rename(previous)
         try:
             stage.rename(output)
@@ -420,7 +420,7 @@ def build(root=ROOT, check_only=False):
         except Exception:
             if output.exists():
                 shutil.rmtree(output)
-            if previous.exists():
+            if previous and previous.exists():
                 previous.rename(output)
             raise
     finally:

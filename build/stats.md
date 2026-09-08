@@ -1,6 +1,6 @@
 # Travel log
 
-Places: 715
+Places: 723
 Routes: 304
 
 | Mode | Routes | km |
