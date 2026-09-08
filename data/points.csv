@@ -66,7 +66,7 @@ Airports,US,Hollywood Burbank Airport (BUR/KBUR),34.198312,-118.357404,,,#1a237
 Airports,US,IAD Dulles International Airport,38.952248,-77.457889,,,#1a237e,p-f9e9659e472145b49d979b27af22dae5
 Airports,US,Los Angeles International Airport (LAX/KLAX),33.941589,-118.40853,,,#1a237e,p-6063f647fcc64b7b80fbe06b535a2e33
 Airports,US,Seattle-Tacoma International Airport (SEA/KSEA),47.45025,-122.308816,,,#1a237e,p-f5f2ffffcbc740fc85fef274f1cdce1e
-Airports,,Nice Côte d'Azur Airport,43.659815,7.213746,,,,p-d532b0667147458ba28bb23dfc722b9e
+Airports,FR,Nice Côte d'Azur Airport,43.659815,7.213746,,,,p-d532b0667147458ba28bb23dfc722b9e
 Football_stadiums,AT,"Vienna, Ernst Happel Stadium",48.207208,16.420985,,,#0f9d58,p-97afbf54dd11498584056c338ee10cff
 Football_stadiums,DE,Düsseldorf Arena,51.261788,6.733567,,,#0f9d58,p-a36a5b46885d49d4a07291ec29a3a0f4
 Football_stadiums,DE,Munich Football Arena,48.218797,11.624712,,,#0f9d58,p-7914226c6db54c2f88b3378e234d7241
@@ -83,7 +83,7 @@ Football_stadiums,IT,"Milan, San Siro Stadium",45.478124,9.123962,2010,2010 Stad
 Football_stadiums,IT,Stadio Olimpico,41.934077,12.454725,,,#0f9d58,p-3f544bd288e54e179558697baff9e82b
 Football_stadiums,PL,Lublin Arena,51.232427,22.55745,,,#0f9d58,p-4a34415356b047eba9313fd6a3ac75ea
 Football_stadiums,PL,Poznan Enea Stadium,52.397706,16.85809,,,#0f9d58,p-7aef969d411e467a87ebc21327c855e9
-Football_stadiums,,PL - Warsaw. Legia,52.220429,21.041439,,"{'@type': 'html', 'value': ""Marshall Józef Piłsudski's Municipal Stadium of Legia Warsaw""}",#0f9d58,p-774ac16263a94d73b291e00821c8d91d
+Football_stadiums,PL,Warsaw. Legia,52.220429,21.041439,,"{'@type': 'html', 'value': ""Marshall Józef Piłsudski's Municipal Stadium of Legia Warsaw""}",#0f9d58,p-774ac16263a94d73b291e00821c8d91d
 Football_stadiums,PL,"Warszawa, Narodowy",52.239496,21.045791,,,#0f9d58,p-6c20d427882e43949f1e9ea89cfddc7f
 Football_stadiums,PL,Wrocław Stadium,51.140959,16.942278,,,#0f9d58,p-c7de08b7dab340ccbad9dadf72968ed3
 Football_stadiums,RO,"Buchurest, National Arena",44.437162,26.152589,,,#0f9d58,p-8bbb542a35964ce394977346d0c29630
@@ -111,7 +111,7 @@ Lodge,MD,Chisinau. Adria Scutaru (approx),46.984658,28.865023,,,#1a237e,p-722f1
 Lodge,PL,Brzeg Zamkowa 3,50.862503,17.468226,,Roman and Diana,#1a237e,p-0651b60c315d4b4497b3e2fb968831ab
 Lodge,PL,Nysa,50.46252,17.337298,,,#1a237e,p-740b271d98eb4862b2549910af0df6a8
 Lodge,RU,Иноземцево (approx),44.094569,43.094774,,,#1a237e,p-c4e39e4f8c8a4ba9b037b51ef7096aa6
-Lodge,,RU -Москва (approx),55.846638,37.572132,,,#1a237e,p-f71de94df67c43f294e5c6d4809e11c6
+Lodge,RU,Москва (approx),55.846638,37.572132,,,#1a237e,p-f71de94df67c43f294e5c6d4809e11c6
 Lodge,UA,"Добротвір, Гагаріна 1",50.209766,24.38167,,,#4e342e,p-043073e17aeb481fb15cf2568bb77d31
 Lodge,UA,"Добротвір, Франка 6",50.209085,24.384128,,,#4e342e,p-ae2939fd9d6b4278b9aea3ca67ed8d7a
 Lodge,UA,"Київ, Бехтерівський провулок 10",50.457785,30.496226,,,#4e342e,p-2feb8b5d570d4ce99733a3ec2900a0f5
@@ -155,7 +155,7 @@ Places,CY,"Larnaca, Ocean Basket",34.915088,33.637849,2021,,#0288d1,p-254eef27af
 Places,CY,"Limassol, Pixida Fish Tavern (New Limassol Marina)",34.669566,33.039301,2019,,#0288d1,p-259735d576474df6996e7ad0fd7a0cfd
 Places,CY,Mount Olympos,34.936375,32.86396,2021,,#0288d1,p-3b1be44d02c64f52bb7fbe248045c3e3
 Places,CY,"Pissouri, Cape Aspro Trail",34.647433,32.717445,2021,,#0288d1,p-90a7cb6a8113474d9ca99375c164d4a7
-Places,,CZ - Historic Centre of Prague,50.087698,14.421148,,,#673ab7,p-c380c42fad444b2d9073097071f11603
+Places,CZ,Historic Centre of Prague,50.087698,14.421148,2012,,#673ab7,p-c380c42fad444b2d9073097071f11603
 Places,CZ,"Praha, St. Vitus Cathedral",50.090892,14.400511,2012,,#0288d1,p-80f9c2ac5b2e468b855b9ff8cb65b1ef
 Places,CZ,The Chamber,50.091672,14.431674,2023,2023. Ales Marsal birthday party,#0288d1,p-21cb08e24ca443e28d4a4d708edb3d56
 Places,DE,Altstadt von Meersburg,47.694609,9.272481,2022,,#0288d1,p-9e5d754fb4d346858351ffa53254b925
@@ -175,7 +175,7 @@ Places,DE,"Munich, Siegestor",48.152369,11.582147,,,#0288d1,p-dc6263db1c5742a79b
 Places,DE,Neuschwanstein Castle,47.557574,10.7498,2022,,#0288d1,p-eaa31560f53944daa724f66f7e1027d0
 Places,DE,Spielplatz Strandbad - Uhldingen-Mühlhofen am Bodensee,47.724694,9.228558,,,#0288d1,p-916ea81e2e5a4d66a39f0162e8185c6e
 Places,DE,"Überlingen, Uferpromenade",47.765954,9.158994,,,#0288d1,p-758e705be1e84ad2a92548b30057dd4f
-Places,,DE -Lindau Insel,47.546149,9.681822,,,#0288d1,p-7ca96b6cfbfe428f83ff586129e84294
+Places,DE,Lindau Insel,47.546149,9.681822,,,#0288d1,p-7ca96b6cfbfe428f83ff586129e84294
 Places,DK,Amalienborg,55.68401,12.592945,,,#0288d1,p-1e27bff474f643beb416fea3965fbc98
 Places,DK,LEGO House,55.730687,9.114944,,,#0288d1,p-06e90c6370ba461d91ab0bf27688635a
 Places,DK,LEGOLAND® Billund Resort,55.735207,9.128321,,,#0288d1,p-a4397eab90b345659c164ab86e26db16
@@ -267,7 +267,7 @@ Places,IE,Plunkets,53.34797,-6.26258,,,#0288d1,p-2d499bb6cc7a44f384a706ad921621a
 Places,IE,The Quays Dublin - Temple Bar,53.345673,-6.263255,,,#0288d1,p-ffeb4887a2754cf5adaf70822b51f50b
 Places,IE,The Temple Bar Pub,53.345474,-6.264194,,,#0288d1,p-d26f0594c0aa4cf1a6c8cd874c38cd41
 Places,IE,Vat House Bar,53.344657,-6.261935,,,#0288d1,p-95f7e2741ec6463eb6a97539c5fa5244
-Places,,IE -Jameson Distillery Bow St.,53.348185,-6.277029,,,#0288d1,p-cdc5424faa374a8fa995aeead8512bfc
+Places,IE,Jameson Distillery Bow St.,53.348185,-6.277029,,,#0288d1,p-cdc5424faa374a8fa995aeead8512bfc
 Places,IL,Church of Nativity,31.704303,35.207529,,,#0288d1,p-efdd01fda42748bb8250dc97bbf70cc3
 Places,IL,Ein Bokek beach,31.196636,35.363254,,,#0288d1,p-479191047ca4407c80c007b165cd045a
 Places,IL,Eshet Lot / Lots Wife,31.081763,35.395602,,,#0288d1,p-e74810c433ae49e69e7c776d38c0ecfc
@@ -279,7 +279,7 @@ Places,IT,Aquarium of Genoa,44.410221,8.926671,,,#0288d1,p-abdc4dc8f2e14bd0b905e
 Places,IT,Bugatti Autoricambi S.p.A.,45.565586,10.129178,2010,,#0288d1,p-12615c6da6ac493ba6d3b24b73fac14b
 Places,IT,Colosseum,41.89021,12.492231,,,#0288d1,p-23b5c391bba7453a977d26dd8cb9da96
 Places,IT,Duomo di Milano,45.464098,9.191926,,,#0288d1,p-615cc317a26f47bd8ee727418e5b8ee1
-Places,,IT - Historic Centre of Rome,41.902701,12.496235,,,#673ab7,p-8af16a4f6d99416e894d2621b7145491
+Places,IT,Historic Centre of Rome,41.902701,12.496235,,,#673ab7,p-8af16a4f6d99416e894d2621b7145491
 Places,IT,Menaggio,46.021707,9.238828,,,#0288d1,p-bd2bab1bd8a54332b526bf0ef43c3d33
 Places,IT,Mount Vesuvius,40.822383,14.428906,,,#0288d1,p-c785472d73664ebfb9aa005e35c4ea9e
 Places,IT,Pompeii,40.751127,14.486111,,,#673ab7,p-45fc2e5793c3414bae82315018668fed
@@ -290,7 +290,7 @@ Places,IT,St. Mark's Square,45.434167,12.338472,,,#0288d1,p-89163d61d9284361ba51
 Places,IT,The Basilica of St. Anthony,45.401394,11.880773,,,#0288d1,p-4c3871e81b1b4e60b04caf3e72a71033
 Places,IT,Verona,45.438384,10.991622,,,#0288d1,p-a8e5ecfeffc047ac81cbfda43c7388df
 Places,KZ,Akbozat,51.122775,71.634065,,"{'@type': 'html', 'value': 'Знакомство с национальным казахским бытом<br>Второй день Конгресса завершится посещением парка отдыха с возможностью поучаствовать в национальных мастер-классах:<br>""Национальная кухня""<br>""Мелодичный сазсырнай""<br>""Казахская Юрта""<br>""Национальный танец""'}",#0288d1,p-7653be2347544e7aa2ff894aaba0bb08
-Places,,KZ - Akmola oblast,51.376353,71.771642,,"показательная охота с беркутом, во время которой профессиональный беркутчи расскажет вам о способах охоты и ее основных приемах, об этапах приобщения птицы к охоте, о сложностях воспитания ее характера.",#0288d1,p-bb0c9ed3d7664a7b8567362ce8b88891
+Places,KZ,Akmola oblast,51.376353,71.771642,,"показательная охота с беркутом, во время которой профессиональный беркутчи расскажет вам о способах охоты и ее основных приемах, об этапах приобщения птицы к охоте, о сложностях воспитания ее характера.",#0288d1,p-bb0c9ed3d7664a7b8567362ce8b88891
 Places,KZ,Astana. Expo,51.088712,71.415944,,,#0288d1,p-9995eb8cabaa48be9bfad9a7401103b4
 Places,LU,Luxembourg,49.611621,6.131935,,,#0288d1,p-b2bd42079c5f439cb29612909a14fd5c
 Places,ME,Budva Old Town,42.27815,18.837642,,,#0288d1,p-caa3fd83b8d34e908746589d5e1c64a3
@@ -299,8 +299,8 @@ Places,MO,Sands Macao,22.191631,113.554871,,,#0288d1,p-6ee459c0b6284896a9ad3163f
 Places,NL,"Amsterdam, Boat tour",52.361835,4.882688,,,#0288d1,p-a5cbc7d26aa44c378fb1cada771ae454
 Places,NL,"Eindhoven, Markt",51.439305,5.478252,,,#0288d1,p-9c617114a36640dda2825887eb9b728d
 Places,NL,Rijksmuseum,52.359998,4.885219,,,#0288d1,p-b52f3959631a4c00a84a84413a3c7235
-Places,,NL - Zaandam,52.438151,4.815123,,,#0288d1,p-b6a6dd6d44a040af80d0300001c8cf6e
-Places,,NL - Zaandam wind mills,52.474201,4.817619,,,#0288d1,p-244297568c584cdd9a105a8a76a276a3
+Places,NL,Zaandam,52.438151,4.815123,,,#0288d1,p-b6a6dd6d44a040af80d0300001c8cf6e
+Places,NL,Zaandam wind mills,52.474201,4.817619,,,#0288d1,p-244297568c584cdd9a105a8a76a276a3
 Places,NO,Akershus Fortress,59.907586,10.737084,,,#0288d1,p-3d8d9e378c7a42bdac141fef349dad73
 Places,NO,Hovedøya,59.895229,10.724641,,,#0288d1,p-7c96c3de10ac4904a1b41565829c9a71
 Places,NO,Kragstøtten,59.972502,10.655492,,,#0288d1,p-1305596c75da4dd38f8eac20e229126d
@@ -387,7 +387,7 @@ Places,UA,"Косино, термальні води",48.259772,22.492739,,,#028
 Places,UA,Кривий Ріг,47.910483,33.391783,,,#0288d1,p-d82ffd917eeb47fb911c2a03faabd938
 Places,UA,Лозівський Молокозавод,48.908594,36.313268,2010,2010/11,#0288d1,p-8e8edb9a8bd945eaafca48ab33179230
 Places,UA,"Луцьк, замок Любарта",50.738892,25.323317,,,#0288d1,p-fb7bab4aca9f47689b1e4fe422464008
-Places,,UA - Лядівський скельний чоловічий монастир,48.484845,27.60799,,,#0288d1,p-70226388d48b4c49901c4c86a3d91b36
+Places,UA,Лядівський скельний чоловічий монастир,48.484845,27.60799,,,#0288d1,p-70226388d48b4c49901c4c86a3d91b36
 Places,UA,Манявський водоспад,48.625698,24.303518,,,#0288d1,p-5c4bcbc9ced44bccbcbbaeee8d70a962
 Places,UA,Межигір'я,50.614788,30.473868,,,#0288d1,p-e6c17aa973254f89bcaf0af76796a219
 Places,UA,Олеський замок,49.968376,24.900878,,,#0288d1,p-85c6791ba52f40e1b38ba921a233d4d4
@@ -405,7 +405,7 @@ Places,UA,Скадовськ,46.110086,32.893172,,,#0288d1,p-059d84e08c004952a09
 Places,UA,"Сколе, ресторан Святослав",49.000186,23.467103,,,#0288d1,p-ad56dd7dbef1459aa37adb4b4d6100e6
 Places,UA,Солотвино. Підземне відділення республіканської алергологічної лікарні,47.965538,23.849691,,,#0288d1,p-f15749e8a4c04ad780e31c54f39d2cf7
 Places,UA,Софіївка Національний дендрологічний парк,48.763369,30.222528,,,#0288d1,p-efd6cb04ceb940309930e7fceef0565c
-Places,,UA - Ставка Гітлера «Вервольф»,49.307214,28.495134,,,#0288d1,p-b54ba2e42fee4674bf759c02a7cad88f
+Places,UA,Ставка Гітлера «Вервольф»,49.307214,28.495134,,,#0288d1,p-b54ba2e42fee4674bf759c02a7cad88f
 Places,UA,"Суботів, Іллінська церква",49.094269,32.554871,,,#0288d1,p-1dcf445a92c048ecbb21509bb7d8e9de
 Places,UA,Сулимів,49.9685,24.158723,,,#0288d1,p-b8586e25a758402ca116a8e3f5549da9
 Places,UA,Сухолуччя,51.025497,30.358057,,,#0288d1,p-ca483be3b7384c579a3fcc44dcc83650
@@ -440,7 +440,7 @@ Places,VA,St. Peter's Square,41.902222,12.456728,,,#0288d1,p-02bf4162aacd4430aba
 Places,,Prison man in iron mask,43.52382,7.044511,,,,p-c24a4555c4cf486489cfe48d70d88f23
 Places,,Oceanographic Museum of Monaco,43.73068,7.425513,,,,p-59d0480925954e7abe6570f8d9d33a2b
 Places,,Prince's Palace of Monaco,43.73126,7.419823,,,,p-27e7ad77d89745ae9028f0e1133b646a
-Places,,Nice,43.695945,7.279515,,,,p-8741aa2cf83041ed9e4925a718abf02f
+Places,FR,Nice,43.695945,7.279515,,,,p-8741aa2cf83041ed9e4925a718abf02f
 Places,,Cannes,43.550601,7.010651,,,,p-e99bf3d0ba7e46c7905422ad7051d726
 Places,,Èze,43.728892,7.36207,,,,p-3877c9e92895487f80e7e84a9331e0fa
 Hotels,AD,Hotel Guillem,42.535707,1.583299,2022,,#ffea00,p-965de276bac4430889d193b93b089652
@@ -460,7 +460,7 @@ Hotels,CY,"Pissouri, Columbia Beach Resort",34.650205,32.720643,2021,,#ffea00,p-
 Hotels,CZ,B&B Hotel Prague-City,50.092499,14.4416,2023,"{'@type': 'html', 'value': '2 rooms Breakfast is included in the final price.<br>Check-in<br>Friday, 24 February 2023<br>Check-out<br>Sunday, 26 February 2023<br>€ 248'}",#ffea00,p-20061d1613bf45118d60de48029f789a
 Hotels,CZ,"Plzeň, Penzion Plzeň U Gigantu",49.721225,13.38399,2012,2012. € 65 per  1 night (4 pers),#ffea00,p-2ba673e1f97c438490330158a34100fb
 Hotels,CZ,President Hotel Prague,50.092379,14.419745,2018,2018.Cbonds CEE Bond Conference,#ffea00,p-ddcd183fe46f415a8914eba935a6b523
-Hotels,,"CZ -Jihlava, Business Hotel , Romana Havelky 13",49.411406,15.577027,2012,2012. 2 rooms = € 96.00,#ffea00,p-fbe0c587e49d4602bbbee24232b28b0d
+Hotels,CZ,"Jihlava, Business Hotel , Romana Havelky 13",49.411406,15.577027,2012,2012. 2 rooms = € 96.00,#ffea00,p-fbe0c587e49d4602bbbee24232b28b0d
 Hotels,DE,"Berlin, ibis Kurfuerstendamm",52.502756,13.344598,2018,,#ffea00,p-9dee7ad9f5f74e6f957091d31ce7ccad
 Hotels,DE,DJH Youth Hostel Duisburg Sportpark,51.410465,6.777012,,,#ffea00,p-5fc1c66a613e45e59d68688f3bbbbd80
 Hotels,DE,"Engen, Hegaustern",47.881667,8.726667,2012,2012. € 99 = 1 room.,#ffea00,p-f1617063b15e43bcb722400a6032d7ff
@@ -471,7 +471,7 @@ Hotels,DK,Next House Copenhagen,55.669602,12.57099,,,#ffea00,p-8c8a47a4b6b64698b
 Hotels,DK,Refborg Hotel,55.729326,9.113582,,,#ffea00,p-12592a31969c4e0cb6ddcd13b8a7d406
 Hotels,EE,Kalev Spa Hotel & Water Park,59.440109,24.75127,2021,"{'@type': 'html', 'value': '24.12.2021:\t179.00 EUR<br>25.12.2021:\t169.00 EUR<br>26.12.2021:\t113.00 EUR<br>Total price:\t461.00 EUR'}",#ffea00,p-10a2022e0ac04d59af6a2b1c6253dcfd
 Hotels,EG,Calimera Blend Paradise Resort,27.095791,33.839418,,,#ffea00,p-e14ef4f7b3844f4c84de9885c8c84226
-Hotels,,"ES -  Sant Feliu de Guíxols, Casa Rita",41.790303,3.022556,2022,"{'@type': 'html', 'value': 'сб, 14 трав. 2022сб, 18 черв. 2022   €1 621,90<br>18/6/2022 - 16/7/2022   1421€'}",#ffea00,p-34b74394ccd94ca69b1e995a3fccd68b
+Hotels,ES,"Sant Feliu de Guíxols, Casa Rita",41.790303,3.022556,2022,"{'@type': 'html', 'value': 'сб, 14 трав. 2022сб, 18 черв. 2022   €1 621,90<br>18/6/2022 - 16/7/2022   1421€'}",#ffea00,p-34b74394ccd94ca69b1e995a3fccd68b
 Hotels,ES,"Barcelona, Hostal Badaloní",41.44583,2.23813,2015,,#ffea00,p-ef8a8a6c65364152a195437aeb8c200e
 Hotels,ES,"C. de Calatrava, 21",40.409161,-3.71188,,"{'@type': 'html', 'value': '€1574,99 = 46.32 per night<br>34 nights'}",#ffea00,p-6d523f903c4b468c8c7081d4f609391d
 Hotels,ES,Casual del JAZZ San Sebastian,43.308677,-1.97638,2022,"{'@type': 'html', 'value': '€ 61.41<br>Check-in\tFriday, 23 December 2022<br>Check-out\tSaturday, 24 December 2022'}",#ffea00,p-81da12fe7d3a4f7ba00b3b53c3730cc5
@@ -489,7 +489,7 @@ Hotels,ES,Mar de Cristal,37.639045,-0.768726,,,#ffea00,p-1083ae2ca59e4e9180ccba9
 Hotels,ES,Pensión Arosa - BARCELONA,41.38543,2.173522,2022,"{'@type': 'html', 'value': 'Заїзд неділя, 22 травня 2022 <br>Виїзд понеділок, 23 травня 2022 <br>€ 77'}",#ffea00,p-5fc7d5b5ef604d478846b8394391a1ae
 Hotels,ES,The Cathedral Hostel,37.986389,-1.129444,,,#ffea00,p-cab15ecc070b45f09cc522a4bdba4d2f
 Hotels,ES,Valencia Aeropuerto ibis budget,39.493813,-0.469583,,,#ffea00,p-11eadbc5affc41c09fc19f0270816b77
-Hotels,,ES- Hotel Alda Centro Pamplona,42.818157,-1.649857,2022,"{'@type': 'html', 'value': '€ 74<br>Check-in\tWednesday, 21 December 2022 (14:00 - 00:00)<br>Check-out\tThursday, 22 December 2022 (00:00 - 12:00)'}",#ffea00,p-f5e5c85e1b804dbfa93fd6132f2a4bb0
+Hotels,ES,Hotel Alda Centro Pamplona,42.818157,-1.649857,2022,"{'@type': 'html', 'value': '€ 74<br>Check-in\tWednesday, 21 December 2022 (14:00 - 00:00)<br>Check-out\tThursday, 22 December 2022 (00:00 - 12:00)'}",#ffea00,p-f5e5c85e1b804dbfa93fd6132f2a4bb0
 Hotels,FR,Aparthotel Adagio Access Paris Maisons-Alfort,48.814945,2.4187,,,#ffea00,p-bd9d15ce7c55446892af1cea2792a267
 Hotels,FR,Hôtel Gabriel,48.615482,-1.510862,2023,"2023, EUR 103, 2x, 1 night w/o breakfast",#ffea00,p-98ce6f9d73fe40ea84634819e3530a41
 Hotels,FR,hotelF1 Metz Actipôle,49.115707,6.2515,,EUR 38,#ffea00,p-bf3e1b7f6de941a3b212663826e2f586
@@ -513,7 +513,7 @@ Hotels,IL,Blue Bay Hotel,32.35072,34.85527,,,#ffea00,p-751abc73fb9b4cb7a8465d1a2
 Hotels,IL,Zion Hotel,31.782078,35.21865,2014,"{'@type': 'html', 'value': 'US$242.25     3 nights,<br>Tuesday, 13 May 2014 - Friday, 16 May 2014'}",#ffea00,p-08bd8d1edfad478184f0f3805f7a1ba3
 Hotels,IT,B&B HOTEL Riviera Celle Ligure,44.343062,8.544384,2012,2012.,#ffea00,p-26c0e5597eae4591b6cf74c011301743
 Hotels,IT,B&B Hotel Roma Pietralata Tiburtina,41.914636,12.554363,2019,"{'@type': 'html', 'value': ""€ 318,51<br>Ваше бронювання\t5 ночей, 1 номер<br>Заїзд\tп'ятниця, 10 травня 2019 (14:00 - 23:00)<br>Виїзд\tсереда, 15 травня 2019 (00:00 - 12:00)""}",#ffea00,p-cde7ae3cc75f415ca3ff9793344d4001
-Hotels,,"It - Bologna, Astoria Hotel",44.503435,11.337815,2019,"{'@type': 'html', 'value': ""€ 99,36 <br>1 ніч, 1 номер<br>Заїзд\tчетвер, 9 травня 2019 (12:00 - 00:00)<br>Виїзд\tп'ятниця, 10 травня 2019 (до 12:00)""}",#ffea00,p-8a9107893bff40a48e8e03efe5782cd7
+Hotels,IT,"Bologna, Astoria Hotel",44.503435,11.337815,2019,"{'@type': 'html', 'value': ""€ 99,36 <br>1 ніч, 1 номер<br>Заїзд\tчетвер, 9 травня 2019 (12:00 - 00:00)<br>Виїзд\tп'ятниця, 10 травня 2019 (до 12:00)""}",#ffea00,p-8a9107893bff40a48e8e03efe5782cd7
 Hotels,IT,J24 Hotel Milano,45.497413,9.180725,,,#ffea00,p-0b76a23460344bee9fd41fba8b5320c9
 Hotels,IT,"Milan, Hostel California",45.49004,9.225795,,,#ffea00,p-f6fbbc46234e4b49b74074e67805cf2d
 Hotels,IT,Verona Hotel Stadio San Bonifacio,45.400401,11.277314,,"{'@type': 'html', 'value': 'Реєстрація заїзду:\tСереда, 8 серпня 12 р., реєстрація заїзду 12:00 – 00:00<br>Реєстрація виїзду:\tЧетвер, 9 серпня 12 р., реєстрація виїзду 07:30 – 10:00<br>Кількість\t<br>2 rooms<br>Загальна вартість номеру\t€ 114.00'}",#ffea00,p-474d6b7894274875b9da815792bd7c59
@@ -544,7 +544,7 @@ Hotels,UA,Patriot,46.935004,37.203518,,,#ffea00,p-a236d25ba5da45e3a8e952426c15d3
 Hotels,UA,"Radisson Blu Resort, Bukovel",48.362882,24.414272,,,#ffea00,p-af906224013e4b9ea037d8d2bc9a2096
 Hotels,UA,Solva Resort & SPA,48.62366,22.935132,,,#ffea00,p-3f4f0c1419ff405299aaeee544357851
 Hotels,UA,Артек,44.551018,34.298547,,,#ffea00,p-ee03a4b088364c8091c42da33ee53158
-Hotels,,UA - база відпочинку Департамент фінансів на озері Cвітязь,51.508378,23.893493,,,#ffea00,p-2b75d3272eb74c56b057a99729bf5290
+Hotels,UA,база відпочинку Департамент фінансів на озері Cвітязь,51.508378,23.893493,,,#ffea00,p-2b75d3272eb74c56b057a99729bf5290
 Hotels,UA,"Біла Церква, City Park Hotel",49.794547,30.115704,,,#ffea00,p-888c8726fa07438aa9ce296919f43eec
 Hotels,UA,Вишгород Sobi club,50.585381,30.539796,,,#ffea00,p-e249e6dd8a7345afb9c0000c395a9d74
 Hotels,UA,"Вінниця, готель Гостинний двір",49.212035,28.429242,,,#ffea00,p-16865067fa8c48189f7294b66cc49849
@@ -570,7 +570,7 @@ Hotels,UA,Трускавець. Mirotel Resort & Spa,49.280304,23.505087,,,#ffea
 Hotels,UA,Трускавець. ЛІсова Пісня,49.285171,23.497958,,,#ffea00,p-655adb22c5964b6ba4227d6a108b60ab
 Hotels,UA,Тухля. Відпочинковий комплекс Greenwood,48.909731,23.470476,,,#ffea00,p-ddbc074778414205ac57cd4193136994
 Hotels,UA,Шинок на мітлі,49.201201,32.446675,,,#ffea00,p-de79cfb491ae4e81b24d3cedf0866ec7
-Hotels,,"UA- Южне, Еллада готель",46.620061,31.100227,,,#ffea00,p-d9185223bfeb411784301988c633c8b8
+Hotels,UA,"Южне, Еллада готель",46.620061,31.100227,,,#ffea00,p-d9185223bfeb411784301988c633c8b8
 Hotels,GB,"100 Queen's Gate Hotel London, Curio Collection by Hilton",51.492385,-0.178718,2023,2023. GBP 310 /night,#ffea00,p-6019a263d70347b9847ad731d0afb88f
 Hotels,GB,City Lodge Hotel London,51.528481,-0.018668,2022,2022 EUR 123 per night,#ffea00,p-5bded010b48f47dc923c3b80f4b4dc52
 Hotels,,UK - Howard Winchester Hotel,51.529451,-0.121973,,,#ffea00,p-4fd6315063df48169ca5710b1b614e43
@@ -721,4 +721,11 @@ Car_Rentals,OM,Alamo Rent A Car - Muscat Airport,23.60075,58.289573,,,#0288d1,p-
 Car_Rentals,PL,ACE Rent A Car,52.170594,20.974291,,,#0288d1,p-a6f417c9598b4f4c89113a6a5a1da7b5
 Car_Rentals,PL,Hertz Car Rental,52.172328,20.972442,,,#0288d1,p-caa7b2baf41e4267945a7e57dd21a1bb
 Car_Rentals,US,Enterprise Rent-A-Car,34.193023,-118.350151,2008,,#0288d1,p-d03c38ab50c044c09db5d932b296daca
-Car_Rentals,,"קאנטרי שרותי ליסינג בע""מ - IS‎",32.329637,34.849842,2014,,#0288d1,p-4929bedbf4d14d96a6dfe307457ec340
+Car_Rentals,IS,"קאנטרי שרותי ליסינג בע""מ",32.329637,34.849842,2014,,#0288d1,p-4929bedbf4d14d96a6dfe307457ec340
+Places,PL,Jasna Góra Częstochowa,50.8123076,19.0986413,2026-08-18,,,p-a08397d0d90149a595c32d5ce665718b
+Places,PL,Radiostacja Gliwicka,50.3133389,18.6887646,2026-08-18,,,p-855ce740cf7d4b5d82d4529037ebfb39
+Places,CZ,Štramberk,49.5912330,18.1170378,2026-08-18,,,p-9cb2e881167f4193ae4586ca7464041a
+Places,CZ,Mohyla míru,49.1281428,16.7624365,2026-08-18,,,p-529477656c10448a8796144d2396742b
+Places,CZ,U Dřevěného vlka Brno,49.1928395,16.6098005,2026-08-18,,,p-1b014be06fca4a3cac83c19b10bb48d5
+Places,AT,Bruck an der Leitha,48.0255094,16.7790041,2026-08-19,,,p-409608d9fbc64364a57467b3d3947e5f
+Places,AT,Neusiedl am See Seebad,47.9314582,16.8372302,2026-08-19,,,p-4378b296504045f9a0ee6f4886636844
