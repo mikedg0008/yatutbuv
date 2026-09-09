@@ -159,7 +159,7 @@ ride__0047_GraphHopper-Track.gpx,ride,GraphHopper Track,,1082.3,,r-8aecdb70d7a34
 ride__0048_GraphHopper-Track.gpx,ride,GraphHopper Track,,164.7,,r-a3a77760835543d19cd132c660476a50,,,,,,,,
 ride__0049_GraphHopper-Track.gpx,ride,GraphHopper Track,,103.1,,r-589e9ef95c96481a93ececad89957634,,,,,,,,
 ride__0050_GraphHopper-Track.gpx,ride,GraphHopper Track,,63.5,,r-2852bf2b43144a3a9174771f13fa489d,,,,,,,,
-ride__0051_GraphHopper-Track.gpx,ride,GraphHopper Track,,34.2,,r-3594511ac9ae48558a86af5fcd5e312a,,,,,,,,
+ride__0051_GraphHopper-Track.gpx,ride,Athens airport,2016-06-28,34.2,,r-3594511ac9ae48558a86af5fcd5e312a,,,,,,,,
 ride__0052_GraphHopper-Track.gpx,ride,GraphHopper Track,,132.4,,r-ad76142ccba447748c3fab78685a0d9a,,,,,,,,
 ride__0053_GraphHopper-Track.gpx,ride,GraphHopper Track,,76.5,,r-a3d217410f1e42dfa58e3921103422cd,,,,,,,,
 ride__0054_GraphHopper-Track.gpx,ride,GraphHopper Track,,11.2,,r-96ece354a6e64eddab682c13528e2266,,,,,,,,
@@ -305,3 +305,5 @@ route-104da43c3950491d9ad650a302e30c19.gpx,drive,20260828_Inssbruk_Bratislava,20
 route-9c412cab116c4463a3e59a51763a2ac2.gpx,drive,20260829_Bratislava_Warszawa,2026-08-29,637.233628,,r-d4ed7140e0cc4734bcf060a04391b49e,,8828e3378cd12eddeed7d783a3bcda4ecd302937bbc3818d6cb330fd7f06bbf3.gpx,8828e3378cd12eddeed7d783a3bcda4ecd302937bbc3818d6cb330fd7f06bbf3,102.5,702.9,6091,1474,0.0001
 route-5ca6eab0a3274fc7b195f22f2e272190.gpx,train,20260724_Monaco -_ Menton,2026-07-24,10.613477,,r-92491b9eaadd4d5f86ad79be27acbc3e,,65c19260c01fe45289dcffc34bbae0d74e8e8583f374f08778c73832191249bb.gpx,65c19260c01fe45289dcffc34bbae0d74e8e8583f374f08778c73832191249bb,8.8,33.0,171,39,0.0001
 route-8e44f462015e42bf878eb73d781d60b7.gpx,ride,20260724_ Menton-Monaco,2026-07-24,11.922304,,r-e855d7088eba45d984a24b798ae94328,,f43a5b742c9bc2483233faf2b356e2e4547a941b9378aa4bcc6778838c63d573.gpx,f43a5b742c9bc2483233faf2b356e2e4547a941b9378aa4bcc6778838c63d573,3.0,109.6,508,104,0.0001
+route-82356e86978f434380c216ce64272ee2.gpx,train,Athenes Airport (40km),2018-11-05,40.001353,,r-ff266a3cbc594d6babc5c5dd0e4ea1ae,,e7095666374bbe62eb6546e82e839341e87a87d9485dcae1c3c6974a84e552b6.gpx,e7095666374bbe62eb6546e82e839341e87a87d9485dcae1c3c6974a84e552b6,68.8,247.8,481,106,0.0001
+route-32f964512c6342e0b025296bd65560b4.gpx,train,Athens Metro (7km),2018-11-06,6.945421,,r-0456fdb41d2d4f05b0becfef3362e2f1,,1c463a8e72ab38323763aecaf6321798e27b34b932228385671b0545c2274366.gpx,1c463a8e72ab38323763aecaf6321798e27b34b932228385671b0545c2274366,-1.5,67.8,128,19,0.0001
