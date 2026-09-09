@@ -1,104 +1,104 @@
 ﻿layer,country,name,lat,lon,date,description,color,id
-Airports,AZ,Baku Heydar Aliyev International Airport (GYD/UBBB),40.465668,50.052438,,,#1a237e,p-ea13afcaf25b48a7a80914b3a960ce00
-Airports,CH,Zurich Airport,47.461235,8.553498,,,#1a237e,p-f38ace9a80a34df882750336dc3b000c
-Airports,CY,Larnaca International Airport  (LCA/LCLK),34.87234,33.620352,,,#1a237e,p-45ce9a3cc83646dda513fe8836244668
-Airports,CY,Paphos International Airport (PFO/LCPH),34.7172,32.484207,,,#1a237e,p-d70a5a6c9a45476fa283a9bf3f196787
-Airports,CZ,Praha-Ruzyne Václav Havel Airport (PRG/LKPR),50.101791,14.263181,,,#1a237e,p-b5ce10124bd349f5924dd1688284b43e
-Airports,DE,Berlin / Tegel (TXL/EDDT),52.555381,13.295646,,,#1a237e,p-b6460df645a7443cb32c1c8a38ca83d5
-Airports,DE,Berlin Schönefeld Airport (SXF/EDDB),52.373315,13.50645,,,#1a237e,p-043d95cc8b004351824ad566f83d76b7
-Airports,DE,Frankfurt Airport (FRA/EDDF),50.037933,8.562152,,,#1a237e,p-64b2cd93ac0147af9eea51aca2849a7a
-Airports,DE,Munich International Airport,48.353642,11.783185,,,#1a237e,p-1cfc256959d442d089603eef8e2805ec
-Airports,DE,Weeze Airport (NRN/EDLV),51.599609,6.15045,,,#1a237e,p-b096540f70064af7b3bcb313cfaf26f6
-Airports,DK,Copenhagen Airport,55.611963,12.647754,,,#1a237e,p-57a932af90b049e5a851a419a709c6cf
-Airports,EE,Tallinn Airport,59.414551,24.833465,,,#1a237e,p-d9f9abe3c5884b66a46ca615da3b1804
-Airports,EG,Hurghada International Airport,27.180284,33.807598,,,#1a237e,p-f0e8ac0908ee4dfd9cc1d66313663e40
-Airports,ES,Alicante-Elche Miguel Hernández Airport,38.284924,-0.562213,,,#1a237e,p-990a117b1a3441b1915b83e98722d5e1
-Airports,ES,Barcelona-El Prat Airport (BCN/LEBL),41.297445,2.083294,,,#1a237e,p-f2273116aecd40629fd069d501194085
-Airports,ES,Girona–Costa Brava Airport,41.897842,2.766064,,,#1a237e,p-257beebcb1d24adfb6b0bc07751f80cd
-Airports,ES,Madrid / Barajas Adolfo Suárez Airport (MAD/LEMD),40.490158,-3.591055,,,#1a237e,p-dd3ccdd8ca7d47d186db1ff939cc246d
-Airports,ES,Valencia Airport,39.488013,-0.480914,,,#1a237e,p-24f7066e26734d5da3ed5014fe85dcb3
-Airports,FR,EuroAirport Basel-Mulhouse-Freiburg,47.597282,7.525896,,,#1a237e,p-0acf3431435347f69cee9e941cb48d37
-Airports,FR,ORY Paris Orly Airport,48.729918,2.37323,,,#1a237e,p-da8d43c3b66e4af39acb777cd14d7b8d
-Airports,FR,Paris Beauvais Airport (BVA/LFOB),49.45946,2.112224,,,#1a237e,p-88716fc2274d4322942f443ac37aac24
-Airports,FR,Paris Charles de Gaulle Airport (CDG/LFPG),49.009674,2.547966,,,#1a237e,p-ee936026bd844a5ab6a3663aec6d0cec
-Airports,GE,Batumi International Airport (BUS/UGSB),41.606789,41.610851,,,#1a237e,p-3666e0a03d0a411894dd5bbf1c9d36a9
-Airports,GE,Tbilisi International Airport (TBS/UGTB),41.669608,44.964349,,,#1a237e,p-a65cb60090604029bb4082258062d883
-Airports,GR,Athens International Airport  (ATH/LGAV),37.935647,23.948416,,,#1a237e,p-d73c4ab3808a4806bf3fc636c7c59bbe
-Airports,GR,Heraklion Airport N. Kazantzakis (HER/LGIR),35.33958,25.174748,,,#1a237e,p-64d1a2ff3c7a428c92408806252628bc
-Airports,HK,Hong Kong International Airport (HKG/VHHH),22.308047,113.918481,,,#1a237e,p-52105acaf1ac4ae2a07d5685bca51c0d
-Airports,HU,Budapest Airport Franz Liszt International (BUD/LHBP),47.438459,19.252296,,,#1a237e,p-55261d9e712e460b96b4c5b9fe7ed070
-Airports,IE,Dublin Airport,53.425632,-6.257376,,,#1a237e,p-2eb8c3504fa74fcf955533dcfe988c2c
-Airports,IL,Tel Aviv / Ben Gurion (TLV/LLBG),32.005532,34.885411,,,#1a237e,p-320aae52a45645bab709da9142bbd921
-Airports,IT,Bergamo Orio Al Serio  Airport (BGY/LIME),45.669571,9.703631,,,#1a237e,p-987c30c5fdb547628d368df1d50ebf37
-Airports,IT,Bologna Guglielmo Marconi Airport (BLQ/LIPE),44.534522,11.287859,,,#1a237e,p-0a166862bda84e7db3bf8a17cd12010b
-Airports,IT,Roma Leonardo da Vinci International Airport (FCO/LIRF),41.803427,12.251893,,,#1a237e,p-a0b3d389f2334f56b4db02b5af73f257
-Airports,IT,Vienna International Airport (VIE/LOWW),48.112612,16.575514,,,#1a237e,p-42859783c4dd4e51af83298c898221a1
-Airports,KZ,Almaty International Airport  (ALA/UAAA),43.349926,77.025289,,,#1a237e,p-252deec925fa441da1a8d063a0f9fb75
-Airports,KZ,Astana Nursultan Nazarbayev International Airport (TSE/UACC),51.028068,71.463303,,,#1a237e,p-750269aaf1124b1f8e01fa9abb5bc9d7
-Airports,NL,Amsterdam Airport Schiphol,52.316919,4.745925,,,#1a237e,p-477c3ab40b314089a771ea8e4ea4c852
-Airports,NL,Eindhoven Airport,51.45045,5.378428,,,#1a237e,p-d1d07fe0d50b47d8b0f192ca8975536a
-Airports,NO,Oslo Airport,60.197854,11.096347,,,#1a237e,p-00887edca7dc485e88696f1b06d6f947
-Airports,NO,TORP Sandefjord Airport,59.182446,10.256912,,,#1a237e,p-63be993df09941f19908aaf31fa6ee7f
-Airports,OM,Muscat International Airport,23.600641,58.282745,,,#1a237e,p-bafcb40e27f044e894a54cd16d4e1afd
-Airports,PL,Kraków-Balice John Paul II  International Airport (KRK/EPKK),50.076978,19.788119,,,#1a237e,p-51e40dfa1f3641aa8a58c61e7f49d28f
-Airports,PL,Warsaw Chopin Airport,52.164861,20.969182,,,#1a237e,p-6d6c347ec3224eeeba3830867f7b64f1
-Airports,PL,Warsaw Modlin Airport,52.446175,20.651334,,,#1a237e,p-93833daf0813487393635275dea44e19
-Airports,PL,Wrocław Nicolaus Copernicus Airport,51.104165,16.880933,,,#1a237e,p-7c75eb90ebe24e3fa23cd389f7361426
-Airports,QA,Hamad International Airport,25.269851,51.602698,,,#1a237e,p-1e3af98df1cb45fc8febf56e698c5c86
-Airports,RO,Bucharest Henri Coandă International Airport (OTP/LROP),44.570731,26.084412,,,#1a237e,p-5c412590bd7b42789f9cd3abd9614b17
-Airports,RU,Mineral'nyye Vody Airport named after M. Lermontov (MRV/URMM),44.217513,43.087835,,,#1a237e,p-2eed8971b6b74d2a89fe88aca77df1ac
-Airports,TR,Antalya Airport (AYT/LTAI),36.904333,30.801877,,,#1a237e,p-eed6896b64a84ce39eb1491e0fff94a7
-Airports,TR,Istanbul Airport,41.259894,28.74273,,,#1a237e,p-9294c189454441bcbeb03503f96be8cd
-Airports,UA,Donetsk Sergey Prokofiev International Airport (DOK/UKCC),48.068257,37.741976,,,#1a237e,p-2f7e725285aa4139aa5266065102ecb7
-Airports,UA,Ivano-Frankivsk International Aeroport (IFO/UKLI),48.887575,24.706883,,,#1a237e,p-7fc9dea58cbf44f9ae60f6c7f949b79d
-Airports,UA,Kyiv Boryspil International Airport (KBP/UKBB),50.338222,30.893927,,,#1a237e,p-3d9d393071ce431d924eb716b221affb
-Airports,UA,Kyiv-Zhulyany International Airport (Sikorsky) (IEV/UKKK),50.411981,30.443292,,,#1a237e,p-4643a3f3c53c451c97ac9f038c3bb574
-Airports,UA,LWO - Lviv International Airport,49.813855,23.959838,,,#1a237e,p-2592e08ee534476ab2a7aa5e3a99e956
-Airports,UA,Odesa International Airport (ODS/UKOO),46.429827,30.677441,,,#1a237e,p-827596ba42eb4fc4aa719abb19643276
-Airports,GB,London City Airport,51.504844,0.049518,,,#1a237e,p-fb464dac60e3427585029fb78101ef36
-Airports,GB,London Gatwick Airport (LGW/EGKK),51.153662,-0.182063,,,#1a237e,p-c8af95aba65743a7a6ec1e1b5ca31710
-Airports,GB,London Heathrow Airport (LHR/EGLL),51.470022,-0.454296,,,#1a237e,p-4a0c88f7d95941a6b1cc1618053fbbc5
-Airports,GB,London Luton Airport (LTN/EGGW),51.876265,-0.371747,,,#1a237e,p-d8dea04bd77e462ea91c4a3c63252cd3
-Airports,GB,London Stansted Airport,51.886018,0.238866,,,#1a237e,p-e5bc6d39da1d4b67a2d7a304b5b07223
-Airports,US,Bellingham International Airport (BLI/KBLI),48.795579,-122.533064,,,#1a237e,p-8c84366c0be44bb6a5443f0ddae5bc6d
-Airports,US,Columbus John Glenn International Airport (CMH/KCMH),39.99994,-82.887177,,,#1a237e,p-aa21837cd2af401c90731affc0cebd98
-Airports,US,Hollywood Burbank Airport (BUR/KBUR),34.198312,-118.357404,,,#1a237e,p-887efcd4a25242c5b2eec84edada22ea
-Airports,US,IAD Dulles International Airport,38.952248,-77.457889,,,#1a237e,p-f9e9659e472145b49d979b27af22dae5
-Airports,US,Los Angeles International Airport (LAX/KLAX),33.941589,-118.40853,,,#1a237e,p-6063f647fcc64b7b80fbe06b535a2e33
-Airports,US,Seattle-Tacoma International Airport (SEA/KSEA),47.45025,-122.308816,,,#1a237e,p-f5f2ffffcbc740fc85fef274f1cdce1e
-Airports,FR,Nice Côte d'Azur Airport,43.659815,7.213746,2026-07-19,,,p-d532b0667147458ba28bb23dfc722b9e
-Football_stadiums,AT,"Vienna, Ernst Happel Stadium",48.207208,16.420985,2008-06-29,UEFA Euro 2008 final Germany 0-1Spain,#0f9d58,p-97afbf54dd11498584056c338ee10cff
-Football_stadiums,DE,Düsseldorf Arena,51.261788,6.733567,,,#0f9d58,p-a36a5b46885d49d4a07291ec29a3a0f4
-Football_stadiums,DE,Munich Football Arena,48.218797,11.624712,,,#0f9d58,p-7914226c6db54c2f88b3378e234d7241
-Football_stadiums,ES,Camp Nou,41.380896,2.12282,,,#0f9d58,p-2876cdd2402a48f2beb1b04243191307
-Football_stadiums,ES,Estadio Ciudad de Valencia,39.494689,-0.363822,,,#0f9d58,p-ed0131814cec4921803322869b790472
-Football_stadiums,ES,La Condomina Stadium,37.98621,-1.121362,,,#0f9d58,p-7eed6941e0484264bac23e868ad64921
-Football_stadiums,ES,Mestalla Stadium,39.47466,-0.358588,,,#0f9d58,p-408a1fed127248198d3390512ecaade7
-Football_stadiums,ES,"Metropolitano Stadium, Madrid",40.436194,-3.599467,,,#0f9d58,p-ab4ba465787847c7bf63995b7b6be1a4
-Football_stadiums,ES,Santiago Bernabéu Stadium,40.453039,-3.688334,,Stadium tour,#0f9d58,p-981f9a2a50bc403a897a49357b2a69b5
-Football_stadiums,FR,Parc des Princes,48.841437,2.25305,,,#0f9d58,p-9161db82422f40838bfb7a5bfcbbd68d
-Football_stadiums,HU,"Budapest, Puskás Aréna",47.503172,19.097022,,,#0f9d58,p-982e4f4d044e45d58fb7aaefe8e91c42
-Football_stadiums,IE,Tallaght Stadium,53.283535,-6.373673,,,#0f9d58,p-3832ad0700284306bdcaf3a2a02ae4fe
-Football_stadiums,IT,"Milan, San Siro Stadium",45.478124,9.123962,2010,2010 Stadium tour,#0f9d58,p-d857951f0e65490b8a2ad505e184d97d
-Football_stadiums,IT,Stadio Olimpico,41.934077,12.454725,,,#0f9d58,p-3f544bd288e54e179558697baff9e82b
-Football_stadiums,PL,Lublin Arena,51.232427,22.55745,,,#0f9d58,p-4a34415356b047eba9313fd6a3ac75ea
-Football_stadiums,PL,Poznan Enea Stadium,52.397706,16.85809,,,#0f9d58,p-7aef969d411e467a87ebc21327c855e9
-Football_stadiums,PL,Warsaw. Legia,52.220429,21.041439,,"{'@type': 'html', 'value': ""Marshall Józef Piłsudski's Municipal Stadium of Legia Warsaw""}",#0f9d58,p-774ac16263a94d73b291e00821c8d91d
-Football_stadiums,PL,"Warszawa, Narodowy",52.239496,21.045791,,,#0f9d58,p-6c20d427882e43949f1e9ea89cfddc7f
-Football_stadiums,PL,Wrocław Stadium,51.140959,16.942278,,,#0f9d58,p-c7de08b7dab340ccbad9dadf72968ed3
-Football_stadiums,RO,"Buchurest, National Arena",44.437162,26.152589,,,#0f9d58,p-8bbb542a35964ce394977346d0c29630
-Football_stadiums,UA,"Донецьк, Донбас Арена",48.02118,37.810168,2012,2012 Stadium tour,#0f9d58,p-ef4cd0e9cd3e428bbb9cfb0995f0523a
-Football_stadiums,UA,"Київ, НСК Олімпійський",50.433406,30.521856,,,#0f9d58,p-7da49a3c43434035bf130a4cb9726c75
-Football_stadiums,UA,"Київ, Стадіон «Динамо» імені Валерія Лобановського",50.450401,30.535101,,,#0f9d58,p-06eef6a8b47f43439d37f8165cfd7b11
-Football_stadiums,UA,Лівий Берег,50.336923,30.624338,,,#0f9d58,p-9de46c6e084042a0bb1444ce4afea187
-Football_stadiums,UA,Львів-Арена,49.774861,24.02768,,,#0f9d58,p-7e3161710bef4fde9fc2d1cba4edef30
-Football_stadiums,UA,"Львів, Стадіон Україна",49.819342,24.048132,,,#0f9d58,p-19c52f0998ac45dd8b4e99229a928856
-Football_stadiums,UA,Оболнь-Арена,50.527098,30.507524,,,#0f9d58,p-098c60972d294f6293f3709e8edf7195
-Football_stadiums,UA,"Одеса, Стадіон Чорноморець",46.480685,30.755366,,,#0f9d58,p-9d6c0186099343738e7d003f48acd88c
-Football_stadiums,GB,Stamford Bridge,51.481663,-0.190956,2023,2023 Charity game,#0f9d58,p-c056fda04db94f28a21429b2235d2bdf
-Football_stadiums,GB,Tottenham Hotspur Stadium,51.60422,-0.066223,,,#0f9d58,p-20fa9849c28c42489ec2f656b065afa8
-Football_stadiums,US,Wallace Wade Stadium,35.995359,-78.941737,,,#0f9d58,p-b4f99875577547338dd2a86c620c4cd6
-Football_stadiums,PL,Stadion Miejski im. Henryka Reymana,50.063582,19.911745,,,,p-7e5d801d40c0430e864a11e6cadc3fc9
+Airports,AZ,Heydar Aliyev International Airport (GYD/UBBB),40.465668,50.052438,2013-06-20,,#1a237e,p-ea13afcaf25b48a7a80914b3a960ce00
+Airports,CH,Zurich Airport (ZRH/LSZH),47.461235,8.553498,2021-12-09,,#1a237e,p-f38ace9a80a34df882750336dc3b000c
+Airports,CY,Larnaca International Airport (LCA/LCLK),34.87234,33.620352,2017-06-07,,#1a237e,p-45ce9a3cc83646dda513fe8836244668
+Airports,CY,Paphos International Airport (PFO/LCPH),34.7172,32.484207,2019-06-15,,#1a237e,p-d70a5a6c9a45476fa283a9bf3f196787
+Airports,CZ,Václav Havel Airport Prague (PRG/LKPR),50.101791,14.263181,2018-02-21,,#1a237e,p-b5ce10124bd349f5924dd1688284b43e
+Airports,DE,Berlin Tegel Airport (TXL/EDDT),52.555381,13.295646,2018-11-07,,#1a237e,p-b6460df645a7443cb32c1c8a38ca83d5
+Airports,DE,Berlin Schönefeld Airport (SXF/EDDB),52.373315,13.50645,2010-02-23,,#1a237e,p-043d95cc8b004351824ad566f83d76b7
+Airports,DE,Frankfurt Airport (FRA/EDDF),50.037933,8.562152,2019-04-09,,#1a237e,p-64b2cd93ac0147af9eea51aca2849a7a
+Airports,DE,Munich Airport (MUC/EDDM),48.353642,11.783185,2024-06-18,,#1a237e,p-1cfc256959d442d089603eef8e2805ec
+Airports,DE,Weeze Airport (NRN/EDLV),51.599609,6.15045,2010-02-23,,#1a237e,p-b096540f70064af7b3bcb313cfaf26f6
+Airports,DK,Copenhagen Airport (CPH/EKCH),55.611963,12.647754,2023-11-13,,#1a237e,p-57a932af90b049e5a851a419a709c6cf
+Airports,EE,Tallinn Airport (TLL/EETN),59.414551,24.833465,2021-12-24,,#1a237e,p-d9f9abe3c5884b66a46ca615da3b1804
+Airports,EG,Hurghada International Airport (HRG/HEGN),27.180284,33.807598,2025-04-18,,#1a237e,p-f0e8ac0908ee4dfd9cc1d66313663e40
+Airports,ES,Alicante-Elche Miguel Hernández Airport (ALC/LEAL),38.284924,-0.562213,2025-03-21,,#1a237e,p-990a117b1a3441b1915b83e98722d5e1
+Airports,ES,Josep Tarradellas Barcelona-El Prat Airport (BCN/LEBL),41.297445,2.083294,2015-08-24,,#1a237e,p-f2273116aecd40629fd069d501194085
+Airports,ES,Girona-Costa Brava Airport (GRO/LEGE),41.897842,2.766064,2023-06-09,,#1a237e,p-257beebcb1d24adfb6b0bc07751f80cd
+Airports,ES,Adolfo Suárez Madrid-Barajas Airport (MAD/LEMD),40.490158,-3.591055,2015-09-05,,#1a237e,p-dd3ccdd8ca7d47d186db1ff939cc246d
+Airports,ES,Valencia Airport (VLC/LEVC),39.488013,-0.480914,2025-03-19,,#1a237e,p-24f7066e26734d5da3ed5014fe85dcb3
+Airports,FR,EuroAirport Basel Mulhouse Freiburg (BSL/LFSB),47.597282,7.525896,2024-02-07,,#1a237e,p-0acf3431435347f69cee9e941cb48d37
+Airports,FR,Paris Orly Airport (ORY/LFPO),48.729918,2.37323,2025-06-21,,#1a237e,p-da8d43c3b66e4af39acb777cd14d7b8d
+Airports,FR,Paris Beauvais Airport (BVA/LFOB),49.45946,2.112224,2019-12-28,,#1a237e,p-88716fc2274d4322942f443ac37aac24
+Airports,FR,Paris Charles de Gaulle Airport (CDG/LFPG),49.009674,2.547966,2007-09-21,,#1a237e,p-ee936026bd844a5ab6a3663aec6d0cec
+Airports,GE,Batumi International Airport (BUS/UGSB),41.606789,41.610851,2018-06-15,,#1a237e,p-3666e0a03d0a411894dd5bbf1c9d36a9
+Airports,GE,Tbilisi International Airport (TBS/UGTB),41.669608,44.964349,2019-12-13,,#1a237e,p-a65cb60090604029bb4082258062d883
+Airports,GR,Athens International Airport (ATH/LGAV),37.935647,23.948416,2016-06-28,,#1a237e,p-d73c4ab3808a4806bf3fc636c7c59bbe
+Airports,GR,Heraklion International Airport Nikos Kazantzakis (HER/LGIR),35.33958,25.174748,2016-06-24,,#1a237e,p-64d1a2ff3c7a428c92408806252628bc
+Airports,HK,Hong Kong International Airport (HKG/VHHH),22.308047,113.918481,2019-04-09,,#1a237e,p-52105acaf1ac4ae2a07d5685bca51c0d
+Airports,HU,Budapest Ferenc Liszt International Airport (BUD/LHBP),47.438459,19.252296,2010-02-23,,#1a237e,p-55261d9e712e460b96b4c5b9fe7ed070
+Airports,IE,Dublin Airport (DUB/EIDW),53.425632,-6.257376,2025-11-26,,#1a237e,p-2eb8c3504fa74fcf955533dcfe988c2c
+Airports,IL,Ben Gurion Airport (TLV/LLBG),32.005532,34.885411,2014-05-13,,#1a237e,p-320aae52a45645bab709da9142bbd921
+Airports,IT,Milan Bergamo Airport (BGY/LIME),45.669571,9.703631,2010-05-05,,#1a237e,p-987c30c5fdb547628d368df1d50ebf37
+Airports,IT,Bologna Guglielmo Marconi Airport (BLQ/LIPE),44.534522,11.287859,2019-05-09,,#1a237e,p-0a166862bda84e7db3bf8a17cd12010b
+Airports,IT,Rome Fiumicino Leonardo da Vinci Airport (FCO/LIRF),41.803427,12.251893,2019-05-14,,#1a237e,p-a0b3d389f2334f56b4db02b5af73f257
+Airports,AT,Vienna International Airport (VIE/LOWW),48.112612,16.575514,2019-05-14,,#1a237e,p-42859783c4dd4e51af83298c898221a1
+Airports,KZ,Almaty International Airport (ALA/UAAA),43.349926,77.025289,2018-06-03,,#1a237e,p-252deec925fa441da1a8d063a0f9fb75
+Airports,KZ,Nursultan Nazarbayev International Airport (NQZ/UACC),51.028068,71.463303,2018-05-30,,#1a237e,p-750269aaf1124b1f8e01fa9abb5bc9d7
+Airports,NL,Amsterdam Airport Schiphol (AMS/EHAM),52.316919,4.745925,2024-06-18,,#1a237e,p-477c3ab40b314089a771ea8e4ea4c852
+Airports,NL,Eindhoven Airport (EIN/EHEH),51.45045,5.378428,2024-06-22,,#1a237e,p-d1d07fe0d50b47d8b0f192ca8975536a
+Airports,NO,Oslo Airport (OSL/ENGM),60.197854,11.096347,2024-08-04,,#1a237e,p-00887edca7dc485e88696f1b06d6f947
+Airports,NO,Sandefjord Airport Torp (TRF/ENTO),59.182446,10.256912,2024-05-10,,#1a237e,p-63be993df09941f19908aaf31fa6ee7f
+Airports,OM,Muscat International Airport (MCT/OOMS),23.600641,58.282745,2025-10-01,,#1a237e,p-bafcb40e27f044e894a54cd16d4e1afd
+Airports,PL,John Paul II Kraków-Balice International Airport (KRK/EPKK),50.076978,19.788119,2015-08-24,,#1a237e,p-51e40dfa1f3641aa8a58c61e7f49d28f
+Airports,PL,Warsaw Chopin Airport (WAW/EPWA),52.164861,20.969182,2023-07-02,,#1a237e,p-6d6c347ec3224eeeba3830867f7b64f1
+Airports,PL,Warsaw Modlin Airport (WMI/EPMO),52.446175,20.651334,2023-07-06,,#1a237e,p-93833daf0813487393635275dea44e19
+Airports,PL,Copernicus Airport Wrocław (WRO/EPWR),51.104165,16.880933,2023-03-05,,#1a237e,p-7c75eb90ebe24e3fa23cd389f7361426
+Airports,QA,Hamad International Airport (DOH/OTHH),25.269851,51.602698,2025-10-01,,#1a237e,p-1e3af98df1cb45fc8febf56e698c5c86
+Airports,RO,Henri Coandă International Airport (OTP/LROP),44.570731,26.084412,2021-06-17,,#1a237e,p-5c412590bd7b42789f9cd3abd9614b17
+Airports,RU,Mineralnye Vody Airport (MRV/URMM),44.217513,43.087835,1990-10-01,,#1a237e,p-2eed8971b6b74d2a89fe88aca77df1ac
+Airports,TR,Antalya Airport (AYT/LTAI),36.904333,30.801877,2006-07-13,,#1a237e,p-eed6896b64a84ce39eb1491e0fff94a7
+Airports,TR,Istanbul Airport (IST/LTFM),41.259894,28.74273,2025-10-13,,#1a237e,p-9294c189454441bcbeb03503f96be8cd
+Airports,UA,Donetsk Sergei Prokofiev International Airport (DOK/UKCC),48.068257,37.741976,2011-02-28,,#1a237e,p-2f7e725285aa4139aa5266065102ecb7
+Airports,UA,Ivano-Frankivsk International Airport (IFO/UKLI),48.887575,24.706883,2016-02-18,,#1a237e,p-7fc9dea58cbf44f9ae60f6c7f949b79d
+Airports,UA,Boryspil International Airport (KBP/UKBB),50.338222,30.893927,2007-09-21,,#1a237e,p-3d9d393071ce431d924eb716b221affb
+Airports,UA,Kyiv International Airport (Zhuliany) (IEV/UKKK),50.411981,30.443292,2018-06-15,,#1a237e,p-4643a3f3c53c451c97ac9f038c3bb574
+Airports,UA,Lviv Danylo Halytskyi International Airport (LWO/UKLL),49.813855,23.959838,1990-10-01,,#1a237e,p-2592e08ee534476ab2a7aa5e3a99e956
+Airports,UA,Odesa International Airport (ODS/UKOO),46.429827,30.677441,2015-09-23,,#1a237e,p-827596ba42eb4fc4aa719abb19643276
+Airports,GB,London City Airport (LCY/EGLC),51.504844,0.049518,2021-12-09,,#1a237e,p-fb464dac60e3427585029fb78101ef36
+Airports,GB,London Gatwick Airport (LGW/EGKK),51.153662,-0.182063,2019-06-24,,#1a237e,p-c8af95aba65743a7a6ec1e1b5ca31710
+Airports,GB,London Heathrow Airport (LHR/EGLL),51.470022,-0.454296,2019-06-10,,#1a237e,p-4a0c88f7d95941a6b1cc1618053fbbc5
+Airports,GB,London Luton Airport (LTN/EGGW),51.876265,-0.371747,2019-06-23,,#1a237e,p-d8dea04bd77e462ea91c4a3c63252cd3
+Airports,GB,London Stansted Airport (STN/EGSS),51.886018,0.238866,2021-12-08,,#1a237e,p-e5bc6d39da1d4b67a2d7a304b5b07223
+Airports,US,Bellingham International Airport (BLI/KBLI),48.795579,-122.533064,2007-12-16,,#1a237e,p-8c84366c0be44bb6a5443f0ddae5bc6d
+Airports,US,John Glenn Columbus International Airport (CMH/KCMH),39.99994,-82.887177,2007-12-16,,#1a237e,p-aa21837cd2af401c90731affc0cebd98
+Airports,US,Hollywood Burbank Airport (BUR/KBUR),34.198312,-118.357404,2008-01-03,,#1a237e,p-887efcd4a25242c5b2eec84edada22ea
+Airports,US,Washington Dulles International Airport (IAD/KIAD),38.952248,-77.457889,2025-10-13,,#1a237e,p-f9e9659e472145b49d979b27af22dae5
+Airports,US,Los Angeles International Airport (LAX/KLAX),33.941589,-118.40853,2008-01-06,,#1a237e,p-6063f647fcc64b7b80fbe06b535a2e33
+Airports,US,Seattle-Tacoma International Airport (SEA/KSEA),47.45025,-122.308816,2007-09-21,,#1a237e,p-f5f2ffffcbc740fc85fef274f1cdce1e
+Airports,FR,Nice Côte d'Azur Airport(NCE/LFMN),43.659815,7.213746,2026-07-19,,#1a237e,p-d532b0667147458ba28bb23dfc722b9e
+Football_stadiums,AT,"Vienna, Ernst Happel Stadium",48.207208,16.420985,2008-06-26,UEFA Euro 2008 semifinal and final,#0f9d58,p-97afbf54dd11498584056c338ee10cff
+Football_stadiums,DE,"Düsseldorf, Merkur Spiel-Arena",51.261788,6.733567,2024-06-21,,#0f9d58,p-a36a5b46885d49d4a07291ec29a3a0f4
+Football_stadiums,DE,"Munich, Allianz Arena",48.218797,11.624712,2024-06-17,,#0f9d58,p-7914226c6db54c2f88b3378e234d7241
+Football_stadiums,ES,"Barcelona, Camp Nou",41.380896,2.12282,2022-10-26,,#0f9d58,p-2876cdd2402a48f2beb1b04243191307
+Football_stadiums,ES,"Valencia, Estadi Ciutat de València",39.494689,-0.363822,2026-03-26,,#0f9d58,p-ed0131814cec4921803322869b790472
+Football_stadiums,ES,"Murcia, Estadio Nueva Condomina (Estadio Enrique Roca de Murcia)",38.042222,-1.144722,2025-03-20,,#0f9d58,p-7eed6941e0484264bac23e868ad64921
+Football_stadiums,ES,"Valencia, Mestalla Stadium",39.47466,-0.358588,2022-08-29,,#0f9d58,p-408a1fed127248198d3390512ecaade7
+Football_stadiums,ES,"Madrid, Metropolitano Stadium",40.436194,-3.599467,2022-08-21,,#0f9d58,p-ab4ba465787847c7bf63995b7b6be1a4
+Football_stadiums,ES,"Madrid, Santiago Bernabéu Stadium",40.453039,-3.688334,,Stadium tour,#0f9d58,p-981f9a2a50bc403a897a49357b2a69b5
+Football_stadiums,FR,"Paris, Parc des Princes",48.841437,2.25305,2025-05-07,,#0f9d58,p-9161db82422f40838bfb7a5bfcbbd68d
+Football_stadiums,HU,"Budapest, Ferenc Puskás Stadium",47.503172,19.097022,2008-09-06,Former stadium demolished in 2016,#0f9d58,p-982e4f4d044e45d58fb7aaefe8e91c42
+Football_stadiums,IE,"Dublin, Tallaght Stadium",53.283535,-6.373673,2025-11-27,,#0f9d58,p-3832ad0700284306bdcaf3a2a02ae4fe
+Football_stadiums,IT,"Milan, Stadio Giuseppe Meazza (San Siro)",45.478124,9.123962,2010,Stadium tour,#0f9d58,p-d857951f0e65490b8a2ad505e184d97d
+Football_stadiums,IT,"Rome, Stadio Olimpico",41.934077,12.454725,2019-05-12,,#0f9d58,p-3f544bd288e54e179558697baff9e82b
+Football_stadiums,PL,"Lublin, Arena Lublin",51.232427,22.55745,2024-07-23,,#0f9d58,p-4a34415356b047eba9313fd6a3ac75ea
+Football_stadiums,PL,"Poznań, Enea Stadion",52.397706,16.85809,2026-03-12,,#0f9d58,p-7aef969d411e467a87ebc21327c855e9
+Football_stadiums,PL,"Warsaw, Marshal Józef Piłsudski Municipal Stadium of Legia Warsaw",52.220429,21.041439,2024-04-21,,#0f9d58,p-774ac16263a94d73b291e00821c8d91d
+Football_stadiums,PL,"Warsaw, National Stadium",52.239496,21.045791,2015-05-27,,#0f9d58,p-6c20d427882e43949f1e9ea89cfddc7f
+Football_stadiums,PL,"Wrocław, Tarczyński Arena Wrocław",51.140959,16.942278,2024-03-26,,#0f9d58,p-c7de08b7dab340ccbad9dadf72968ed3
+Football_stadiums,RO,"Bucharest, Arena Națională",44.437162,26.152589,2021-06-17,,#0f9d58,p-8bbb542a35964ce394977346d0c29630
+Football_stadiums,UA,"Донецьк, Донбас Арена",48.02118,37.810168,2012,Stadium tour,#0f9d58,p-ef4cd0e9cd3e428bbb9cfb0995f0523a
+Football_stadiums,UA,"Київ, НСК «Олімпійський»",50.433406,30.521856,1999-09-04,,#0f9d58,p-7da49a3c43434035bf130a4cb9726c75
+Football_stadiums,UA,"Київ, Стадіон «Динамо» імені Валерія Лобановського",50.450401,30.535101,2011-03-29,,#0f9d58,p-06eef6a8b47f43439d37f8165cfd7b11
+Football_stadiums,UA,"Київ, Стадіон «Лівий берег»",50.336923,30.624338,2021-11-20,,#0f9d58,p-9de46c6e084042a0bb1444ce4afea187
+Football_stadiums,UA,"Львів, Арена Львів",49.774861,24.02768,2012-06-13,,#0f9d58,p-7e3161710bef4fde9fc2d1cba4edef30
+Football_stadiums,UA,"Львів, Стадіон «Україна»",49.819342,24.048132,1998-06-16,,#0f9d58,p-19c52f0998ac45dd8b4e99229a928856
+Football_stadiums,UA,"Київ, Оболонь-Арена",50.527098,30.507524,2018-04-22,,#0f9d58,p-098c60972d294f6293f3709e8edf7195
+Football_stadiums,UA,"Одеса, Стадіон «Чорноморець»",46.480685,30.755366,2007-03-28,,#0f9d58,p-9d6c0186099343738e7d003f48acd88c
+Football_stadiums,GB,"London, Stamford Bridge",51.481663,-0.190956,2023-08-05,Charity match,#0f9d58,p-c056fda04db94f28a21429b2235d2bdf
+Football_stadiums,GB,"London, Tottenham Hotspur Stadium",51.60422,-0.066223,2023-08-06,,#0f9d58,p-20fa9849c28c42489ec2f656b065afa8
+Football_stadiums,US,"Durham, Wallace Wade Stadium",35.995359,-78.941737,,,#0f9d58,p-b4f99875577547338dd2a86c620c4cd6
+Football_stadiums,PL,"Kraków, Henryk Reyman Municipal Stadium",50.063582,19.911745,,,#0f9d58,p-7e5d801d40c0430e864a11e6cadc3fc9
 Lodge,AZ,Baku (approx),40.377908,49.856885,,,#1a237e,p-4691631e336e4c2fa7884ccb14db9f45
 Lodge,CH,Caslano (approx),45.973402,8.88036,,"Chris, ex Western Washington university faculty",#1a237e,p-da8617193c3743dd919316a56384faa9
 Lodge,DE,"Uhldingen-Mühlhofen, Erlenweg 4",47.74138,9.257974,2022,,#4e342e,p-427c5c47b0374d55a6af86f4407ecffb
@@ -579,7 +579,7 @@ Hotels,GB,The Bermondsey Square Hotel,51.497719,-0.081316,,,#ffea00,p-4e21d7fe93
 Hotels,GB,Thistle Trafalgar Square,51.509097,-0.130134,,,#ffea00,p-2d0ac228370d42fba9270094eb389ea3
 Hotels,US,HI Los Angeles Santa Monica Hostel,34.014112,-118.496371,,"{'@type': 'html', 'value': 'Thu 3/01/08:<br> Dorm (4 beds): 1 people | cost USD 25.00 | total USD 25.00<br>Fri 4/01/08:<br> Dorm (4 beds): 1 people | cost USD 25.00 | total USD 25.00<br>Sat 5/01/08:<br> Dorm (4 beds): 1 people | cost USD 25.00 | total USD 25.00<br><br>Total: USD 75.00'}",#ffea00,p-27a86e4bda2d415e89ce39f6e9bfa7a9
 Hotels,US,citizenM Washington DC NoMa hotel,38.906658,-77.006269,,,#ffea00,p-b6f1c744e40046009ed14d3ffa44797f
-Hotels,,Wellness Hotel Chopok,49.019186,19.576676,,,,p-24d6b2b75d8c438b93b14b2ac2ac808a
+Hotels,SK,Wellness Hotel Chopok,49.019186,19.576676,,,,p-24d6b2b75d8c438b93b14b2ac2ac808a
 Hotels,CZ,eFi Palace Hotel,49.199635,16.620407,2026-08-18,"Bratislavská 52, 602 00 Brno. Stay: Aug 18-19, 1 night. Standard Room with Balcony. 2 adults. Breakfast: yes. Total: €66.29 incl. city tax €3.40; approx. CZK 1607. Due: €62.89 prepayment by card; city tax paid at property. Coordinate source: Mapy/web result.",#ffea00,p-b98b1ce365a84641be623257bf73201b
 Hotels,AT,Mladinski dom – Hostel,46.620000,14.329500,2026-08-19,"Mikschallee 4, 9020 Klagenfurt. Stay: Aug 19-20, 1 night. Standard Twin Room. 2 adults. Breakfast: yes. Total: €105.40 incl. city tax €5.40. Paid: €100 via Booking.com; city tax paid at property. Coordinate note: address-derived, verify pin.",#ffea00,p-b4cdfd9aeb4a4e23bf2b0c155a5bb2d1
 Hotels,IT,Hotel San Pancrazio,45.692900,9.842300,2026-08-20,"Via Fratelli Calvi 7, 24069 Trescore Balneario. Stay: Aug 20-21, 1 night. 2 rooms: twin standard for 2 adults + 1 child age 9; triple standard for 2 adults. Breakfast: yes. Total/paid: €147. Non-refundable. Coordinate note: address-derived, verify pin.",#ffea00,p-05766b5902f74358a520a438405bf305
@@ -611,7 +611,7 @@ Transport,DK,Nordre Toldbod (Københavns Havn),55.688169,12.599597,,,#01579b,p-7
 Transport,DK,Odense Railway Station Center,55.402404,10.385663,,,#1a237e,p-48aac30a75fb492ca79566205a8e8217
 Transport,DK,Roskilde Station,55.639215,12.08904,,,#01579b,p-a545f2c383674051aa6c3858a824ae97
 Transport,DK,Vejle Station,55.706667,9.536509,,,#1a237e,p-defb4a0f3ed54ddd8051edb9f7aeb7ae
-Transport,,DK DFDS Copenhagen,55.701272,12.595973,,,#01579b,p-89014a888b7c4ac08811a55ac53d08a9
+Transport,DK,DFDS Copenhagen,55.701272,12.595973,,,#01579b,p-89014a888b7c4ac08811a55ac53d08a9
 Transport,ES,Alicante bus station,38.337536,-0.491511,,,#4e342e,p-5bd147cd8aa7444db3c58178b87fdc0b
 Transport,ES,Barcelona-Sants,41.378998,2.139913,,,#1a237e,p-171800616a3f455ead22b76a4d84a75f
 Transport,ES,Caldes de Malavella,41.841098,2.800765,,,#1a237e,p-126d4306c1264148a8ce00fb6cd3e7de
@@ -748,3 +748,4 @@ Places,CH,Flüela,46.75190757293438,9.94503721000343,2026-08-27,,,p-033e0d98f47c
 Places,AT,Innsbruck,47.267820813805514,11.390782457178654,2026-08-28,,,p-dfe8d8ae8bc04128a85b353485802cd2
 Places,AT,Schloss Mirabell,47.8055548,13.0416161,2026-08-28,,,p-0c94f23b3e864b64add18e33fe45a45b
 Places,FR,Cimetière du Vieux Château menton,43.7782718,7.5056468,2026-07-24,,,p-deff656d0c234c058472b3e81232ce4b
+Football_stadiums,GB,Emirates stadium London,51.5550404,-0.1083997,2023-11-29,,,p-003e571afa194e96b9f082e495062ab4

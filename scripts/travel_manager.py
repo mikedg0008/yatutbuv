@@ -16,6 +16,39 @@ from publish import publish
 from project_lock import project_lock
 
 
+COLUMN_LABELS = {
+    'distance_km': 'km (from GPX)',
+}
+
+
+def sort_value(row, column):
+    """Return a typed value for a visible table column."""
+    if column == 'distance_km':
+        value = row.get('_km', row.get(column, ''))
+        try:
+            return float(value)
+        except (TypeError, ValueError):
+            return None
+
+    value = str(row.get(column, '')).strip()
+    if not value:
+        return None
+    if column == 'date':
+        # Valid dates are YYYY or YYYY-MM-DD, so ISO text is chronological.
+        return value
+    return value.casefold()
+
+
+def sorted_rows(rows, column, descending=False):
+    """Sort populated values while consistently leaving blank cells last."""
+    populated = [row for row in rows if sort_value(row, column) is not None]
+    blank = [row for row in rows if sort_value(row, column) is None]
+    populated.sort(key=lambda row: (sort_value(row, column), row.get('name', '').casefold()),
+                   reverse=descending)
+    blank.sort(key=lambda row: row.get('name', '').casefold())
+    return populated + blank
+
+
 def open_path(path):
     if os.name == 'nt':
         os.startfile(str(path))
@@ -75,11 +108,13 @@ class Manager(tk.Tk):
             tree.configure(yscrollcommand=scrollbar.set)
             scrollbar.pack(side='right',fill='y');tree.pack(fill='both',expand=True)
             for col in cols:
-                tree.heading(col,text={'distance_km':'km (from GPX)'}.get(col,col.replace('_',' ').title()))
+                tree.heading(col,command=lambda c=col,k=kind:self.sort_by(k,c))
                 tree.column(col,width=380 if col=='name' else 115,minwidth=70,stretch=col=='name')
-            tree.bind('<Double-1>',lambda e,k=kind:self.edit_selected(k))
+            tree.bind('<Double-1>',lambda e,k=kind:self.on_double_click(e,k))
             count=ttk.Label(frame);count.pack(anchor='w',pady=(8,0))
-            self.views[kind]={'tree':tree,'search':search,'count':count,'columns':cols}
+            self.views[kind]={'tree':tree,'search':search,'count':count,'columns':cols,
+                              'sort_column':'name','sort_descending':False}
+            self.update_headings(kind)
             search.trace_add('write',lambda *a,k=kind:self.filter(k))
         self.status=tk.StringVar(value='Ready. Local changes are backed up before saving.')
         ttk.Label(self,textvariable=self.status,padding=12,wraplength=1050).pack(fill='x')
@@ -97,7 +132,7 @@ class Manager(tk.Tk):
         tree.delete(*tree.get_children())
         query=view['search'].get().casefold()
         rows=[r for r in self.records[kind] if query in ' '.join(str(v) for k,v in r.items() if not k.startswith('_')).casefold()]
-        rows.sort(key=lambda r:(r.get('name','').casefold(),r.get('date','')))
+        rows=sorted_rows(rows,view['sort_column'],view['sort_descending'])
         for r in rows:
             values=[f'{r["_km"]:.1f}' if c=='distance_km' else r.get(c,'') for c in view['columns']]
             tree.insert('', 'end', iid=r['id'], values=values)
@@ -105,12 +140,34 @@ class Manager(tk.Tk):
             tree.selection_set(selected[0])
         view['count'].configure(text=f'{len(rows)} of {len(self.records[kind])} records')
 
+    def sort_by(self,kind,column):
+        view=self.views[kind]
+        if view['sort_column']==column:
+            view['sort_descending']=not view['sort_descending']
+        else:
+            view['sort_column']=column
+            view['sort_descending']=False
+        self.update_headings(kind)
+        self.filter(kind)
+
+    def update_headings(self,kind):
+        view=self.views[kind]
+        for column in view['columns']:
+            label=COLUMN_LABELS.get(column,column.replace('_',' ').title())
+            if column==view['sort_column']:
+                label += ' ▼' if view['sort_descending'] else ' ▲'
+            view['tree'].heading(column,text=label)
+
     def selected(self,kind):
         ids=self.views[kind]['tree'].selection()
         if not ids:
             messagebox.showinfo('Select a record','Select a row first.',parent=self)
             return None
         return next(r for r in self.records[kind] if r['id']==ids[0])
+
+    def on_double_click(self,event,kind):
+        if self.views[kind]['tree'].identify_region(event.x,event.y)=='cell':
+            self.edit_selected(kind)
 
     def edit_selected(self,kind,replace=False):
         if self.busy:return
