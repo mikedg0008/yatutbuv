@@ -18,15 +18,17 @@ from project_lock import project_lock
 
 COLUMN_LABELS = {
     'distance_km': 'km (from GPX)',
+    'min_altitude_m': 'Min alt (m)',
+    'max_altitude_m': 'Max alt (m)',
 }
 
 
 def sort_value(row, column):
     """Return a typed value for a visible table column."""
-    if column == 'distance_km':
-        value = row.get('_km', row.get(column, ''))
+    if column in ('distance_km', 'min_altitude_m', 'max_altitude_m'):
+        value = row.get('_km', row.get(column, '')) if column == 'distance_km' else row.get(column, '')
         try:
-            return float(value)
+            return float(str(value).replace(',', '.'))
         except (TypeError, ValueError):
             return None
 
@@ -101,7 +103,7 @@ class Manager(tk.Tk):
                 b.pack(side='left',padx=3);self.buttons.append(b)
                 b=ttk.Button(top,text='Re-clean',command=self.reclean_selected)
                 b.pack(side='left',padx=3);self.buttons.append(b)
-            cols=('name','layer','country','date') if kind=='points' else ('name','mode','date','distance_km','source')
+            cols=('name','layer','country','date','description') if kind=='points' else ('name','mode','date','distance_km','min_altitude_m','max_altitude_m','source')
             area=ttk.Frame(frame);area.pack(fill='both',expand=True)
             tree=ttk.Treeview(area,columns=cols,show='headings',selectmode='browse')
             scrollbar=ttk.Scrollbar(area,orient='vertical',command=tree.yview)
@@ -109,7 +111,8 @@ class Manager(tk.Tk):
             scrollbar.pack(side='right',fill='y');tree.pack(fill='both',expand=True)
             for col in cols:
                 tree.heading(col,command=lambda c=col,k=kind:self.sort_by(k,c))
-                tree.column(col,width=380 if col=='name' else 115,minwidth=70,stretch=col=='name')
+                w = 380 if col == 'name' else 200 if col == 'description' else 90 if col in ('min_altitude_m', 'max_altitude_m') else 115
+                tree.column(col, width=w, minwidth=70, stretch=col in ('name', 'description'))
             tree.bind('<Double-1>',lambda e,k=kind:self.on_double_click(e,k))
             count=ttk.Label(frame);count.pack(anchor='w',pady=(8,0))
             self.views[kind]={'tree':tree,'search':search,'count':count,'columns':cols,
