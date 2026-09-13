@@ -87,7 +87,7 @@ Football_stadiums,PL,"Warsaw, Marshal Józef Piłsudski Municipal Stadium of Leg
 Football_stadiums,PL,"Warsaw, National Stadium",52.239496,21.045791,2015-05-27,,#0f9d58,p-6c20d427882e43949f1e9ea89cfddc7f
 Football_stadiums,PL,"Wrocław, Tarczyński Arena Wrocław",51.140959,16.942278,2024-03-26,,#0f9d58,p-c7de08b7dab340ccbad9dadf72968ed3
 Football_stadiums,RO,"Bucharest, Arena Națională",44.437162,26.152589,2021-06-17,,#0f9d58,p-8bbb542a35964ce394977346d0c29630
-Football_stadiums,UA,"Донецьк, Донбас Арена",48.02118,37.810168,2012,Stadium tour,#0f9d58,p-ef4cd0e9cd3e428bbb9cfb0995f0523a
+Football_stadiums,UA,"Донецьк, Донбас Арена",48.02118,37.810168,2011-02-27,Stadium tour,#0f9d58,p-ef4cd0e9cd3e428bbb9cfb0995f0523a
 Football_stadiums,UA,"Київ, НСК «Олімпійський»",50.433406,30.521856,1999-09-04,,#0f9d58,p-7da49a3c43434035bf130a4cb9726c75
 Football_stadiums,UA,"Київ, Стадіон «Динамо» імені Валерія Лобановського",50.450401,30.535101,2011-03-29,,#0f9d58,p-06eef6a8b47f43439d37f8165cfd7b11
 Football_stadiums,UA,"Київ, Стадіон «Лівий берег»",50.336923,30.624338,2021-11-20,,#0f9d58,p-9de46c6e084042a0bb1444ce4afea187
@@ -102,7 +102,7 @@ Football_stadiums,PL,"Kraków, Henryk Reyman Municipal Stadium",50.063582,19.911
 Lodge,AZ,Baku (approx),40.377908,49.856885,,,#1a237e,p-4691631e336e4c2fa7884ccb14db9f45
 Lodge,CH,Caslano (approx),45.973402,8.88036,,"Chris, ex Western Washington university faculty",#1a237e,p-da8617193c3743dd919316a56384faa9
 Lodge,DE,"Uhldingen-Mühlhofen, Erlenweg 4",47.74138,9.257974,2022,,#4e342e,p-427c5c47b0374d55a6af86f4407ecffb
-Lodge,ES,"Sant Feliu de Guíxols, Carrer de Joan Goula, 32",41.781315,3.027756,,,#4e342e,p-3e44f0124dbf46d090c0a610b1483ddc
+Lodge,ES,"Sant Feliu de Guíxols, Carrer de Joan Goula, 32",41.781315,3.027756,2022-09-11,,#4e342e,p-3e44f0124dbf46d090c0a610b1483ddc
 Lodge,ES,Santa Cristina,41.810116,2.93547,,,#4e342e,p-286f6f4f5bbe4a979c9adbf1f94a07e9
 Lodge,ES,Valencia. Diachenko 1,39.473728,-0.380568,,,#1a237e,p-db55e16b529c4a4dba80542db2a99e8e
 Lodge,ES,Valencia. Diachenko 2,39.46976,-0.383599,,,#1a237e,p-b5742594557b4e16831b2908c5d055d0
@@ -137,16 +137,16 @@ Places,AT,"Vienna, St. Stephen's Cathedral",48.208411,16.373471,,,#0288d1,p-6dbb
 Places,AZ,"Baku, Jumeirah Bilgah Beach Hotel",40.576135,50.0617,,,#0288d1,p-6a39c88d9382447ca724d9e4ec4a2130
 Places,AZ,"Baku, Park Bulvar Mall",40.37074,49.849699,,,#0288d1,p-40ef0eec21e14571af817c304023705e
 Places,AZ,Gobustan Rock Art Cultural Landscape,40.154048,49.315921,,,#673ab7,p-61bbcd1f17314b2bbd0315621bcc59a3
-Places,BG,"Бургас, Mall Galleria",42.512734,27.45521,,,#0288d1,p-332f146096a642cbbce58c951d57bb6b
-Places,BG,"Свети Влас, Marina View Fort Beach",42.703656,27.793314,2010,"Room 1, Studio - Non Refundable. € 350.00. Arrival Wednesday, 4 August 2010, check-in after 14:00. Departure Saturday, 14 August 2010, check-out before 11:00",#0288d1,p-d42637d43837444d9e00465e1671ed43
-Places,BG,Старият Несебър,42.659458,27.736309,,,#673ab7,p-a0779b1c274040938e068fa9db375a2d
+Places,BG,"Бургас, Mall Galleria",42.512734,27.45521,2010-08-10,,#0288d1,p-332f146096a642cbbce58c951d57bb6b
+Places,BG,"Свети Влас, Marina View Fort Beach",42.703656,27.793314,2010-08-04,"Room 1, Studio - Non Refundable. € 350.00. Arrival Wednesday, 4 August 2010, check-in after 14:00. Departure Saturday, 14 August 2010, check-out before 11:00",#0288d1,p-d42637d43837444d9e00465e1671ed43
+Places,BG,Старият Несебър,42.659458,27.736309,2010-08-06,,#673ab7,p-a0779b1c274040938e068fa9db375a2d
 Places,BY,"Брэст, Брэсцкая крэпасць",52.08276,23.658054,,,#0288d1,p-4fc5a48d47a84eb3a42f31e9601cc91d
 Places,CH,Altstadt Grossbasel,47.555955,7.589669,,,#0288d1,p-b8ecc193b1204111ba3d956202cba30d
 Places,CH,FIFA Museum,47.363335,8.531703,,,#0288d1,p-7919ea08d8fd4b088b889b32958af088
-Places,CH,Geneva,46.204391,6.143158,2012,,#0288d1,p-21c1588807204e1d8c398f254ff1dc59
+Places,CH,Geneva,46.204391,6.143158,2012-07-25,,#0288d1,p-21c1588807204e1d8c398f254ff1dc59
 Places,CH,Panoramic Viewpoint Monte Brè,46.009065,8.98726,,,#0288d1,p-9cc76c4601c3409a8b892fed16c5f58e
-Places,CH,Rhine Falls,47.677951,8.61558,2012,,#0288d1,p-3d4750f48e1a498bb4ba9efe604dc007
-Places,CH,Zürich,47.376887,8.541694,2012,,#0288d1,p-d9031c1ff3ee4163ba1b59395e196daa
+Places,CH,Rhine Falls,47.677951,8.61558,2012-07-25,,#0288d1,p-3d4750f48e1a498bb4ba9efe604dc007
+Places,CH,Zürich,47.376887,8.541694,2012-07-25,,#0288d1,p-d9031c1ff3ee4163ba1b59395e196daa
 Places,CY,Ayia Napa Island,34.985478,33.968254,2021-07-18,,#0288d1,p-8cdc9b5852a34a4eb1d944bc573ca257
 Places,CY,"Ayia Napa, Ocean Basket",34.983228,34.00313,2021-07-21,,#0288d1,p-cdf9849725fb4efa860194efd054506f
 Places,CY,Bath of Aphrodite beach,35.055915,32.348388,2019-06-16,,#0288d1,p-242e1db805e340108f358f9d4cca9233
@@ -155,8 +155,8 @@ Places,CY,"Larnaca, Ocean Basket",34.915088,33.637849,2021-07-21,,#0288d1,p-254e
 Places,CY,"Limassol, Pixida Fish Tavern (New Limassol Marina)",34.669566,33.039301,2019-05-16,,#0288d1,p-259735d576474df6996e7ad0fd7a0cfd
 Places,CY,Mount Olympos,34.936375,32.86396,2021-07-20,,#0288d1,p-3b1be44d02c64f52bb7fbe248045c3e3
 Places,CY,"Pissouri, Cape Aspro Trail",34.647433,32.717445,2021-07-03,,#0288d1,p-90a7cb6a8113474d9ca99375c164d4a7
-Places,CZ,Historic Centre of Prague,50.087698,14.421148,2012,,#673ab7,p-c380c42fad444b2d9073097071f11603
-Places,CZ,"Praha, St. Vitus Cathedral",50.090892,14.400511,2012,,#0288d1,p-80f9c2ac5b2e468b855b9ff8cb65b1ef
+Places,CZ,Historic Centre of Prague,50.087698,14.421148,2012-07-23,,#673ab7,p-c380c42fad444b2d9073097071f11603
+Places,CZ,"Praha, St. Vitus Cathedral",50.090892,14.400511,2012-07-23,,#0288d1,p-80f9c2ac5b2e468b855b9ff8cb65b1ef
 Places,CZ,The Chamber,50.091672,14.431674,2023,2023. Ales Marsal birthday party,#0288d1,p-21cb08e24ca443e28d4a4d708edb3d56
 Places,DE,Altstadt von Meersburg,47.694609,9.272481,2022-03-07,,#0288d1,p-9e5d754fb4d346858351ffa53254b925
 Places,DE,"Berlin, Bundesministerium für Wirtschaft und Energie",52.528324,13.374813,,,#0288d1,p-bbe21fac12464a4a8b32f90567443966
@@ -170,7 +170,7 @@ Places,DE,"Düsseldorf, Carlsplatz Markt",51.223431,6.773664,,,#0288d1,p-2751f99
 Places,DE,Erfurt,50.984768,11.02988,2010,2010 - Ievgen Zveriev,#0288d1,p-9d1665b4a0aa429e8e50dcc6a7a6ada8
 Places,DE,Jena,50.927054,11.589237,2010,2010 - Ievgen Zveriev,#0288d1,p-5e5973ec470c4ec3bfa865d806ecc5df
 Places,DE,"Konstanz, SEA LIFE",47.657012,9.180164,2022,,#0288d1,p-3ebd8f863d3d47fa86a7f41f29c00e90
-Places,DE,"Konstanz, Stadtgarten",47.662278,9.178911,2012,,#0288d1,p-7d4b9209c1b5434a9621b7d132cb84fe
+Places,DE,"Konstanz, Stadtgarten",47.662278,9.178911,2012-07-24,,#0288d1,p-7d4b9209c1b5434a9621b7d132cb84fe
 Places,DE,"Munich, Siegestor",48.152369,11.582147,,,#0288d1,p-dc6263db1c5742a79bd93fff5a117415
 Places,DE,Neuschwanstein Castle,47.557574,10.7498,2022,,#0288d1,p-eaa31560f53944daa724f66f7e1027d0
 Places,DE,Spielplatz Strandbad - Uhldingen-Mühlhofen am Bodensee,47.724694,9.228558,,,#0288d1,p-916ea81e2e5a4d66a39f0162e8185c6e
@@ -221,9 +221,9 @@ Places,FR,Basilique Notre-Dame de la Garde,43.283953,5.371238,,,#0288d1,p-1c1ab8
 Places,FR,Canal du Midi,43.613201,1.424278,,"""This 360-km network of navigable waterways linking the Mediterranean and the Atlantic through 328 structures (locks, aqueducts, bridges, tunnels, etc.) is one of the most..""",#673ab7,p-b8900c447c1d4c728819cbcb45b5106a
 Places,FR,Cité de Carcassonne,43.206082,2.364196,2023-05-01,,#673ab7,p-d5533ed18aee46e4a08bfafc53bb771b
 Places,FR,INSEAD,48.406601,2.685375,,,#0288d1,p-6428aa569664494fb5daf00a6cc9e48b
-Places,FR,Léon - Montpellier Antigone,43.607315,3.896261,,,#0288d1,p-408ce2bb0d39445383ee0db2a140ff78
+Places,FR,Léon - Montpellier Antigone,43.607315,3.896261,2023-04-30,,#0288d1,p-408ce2bb0d39445383ee0db2a140ff78
 Places,FR,Mont Saint-Michel,48.636063,-1.511457,2023-06-11,,#673ab7,p-1bbaaf91fb8e40b095b7f814284aeb7e
-Places,FR,"Montpellier, Arc de Triomphe",43.611144,3.872424,,,#0288d1,p-59a93b04cd8c4617949dfabcbcd2800d
+Places,FR,"Montpellier, Arc de Triomphe",43.611144,3.872424,2023-04-30,,#0288d1,p-59a93b04cd8c4617949dfabcbcd2800d
 Places,FR,Musée d'Orsay,48.859961,2.326561,2023-06-10,,#0288d1,p-51ec9d8ceb8b4187bb59431f1bc6da8c
 Places,FR,Palace of the Kings of Majorca,42.693988,2.893925,,,#0288d1,p-9d41a518e19c4f03b284d4f3bd1135a8
 Places,FR,"Paris, Arc de Triomphe",48.873792,2.295028,2019,2019/20,#0288d1,p-ea8256b2abc44d058a061cb0973a8478
@@ -293,8 +293,8 @@ Places,KZ,Akbozat,51.122775,71.634065,,"Знакомство с национал
 Places,KZ,Akmola oblast,51.376353,71.771642,,"показательная охота с беркутом, во время которой профессиональный беркутчи расскажет вам о способах охоты и ее основных приемах, об этапах приобщения птицы к охоте, о сложностях воспитания ее характера.",#0288d1,p-bb0c9ed3d7664a7b8567362ce8b88891
 Places,KZ,Astana. Expo,51.088712,71.415944,,,#0288d1,p-9995eb8cabaa48be9bfad9a7401103b4
 Places,LU,Luxembourg,49.611621,6.131935,,,#0288d1,p-b2bd42079c5f439cb29612909a14fd5c
-Places,ME,Budva Old Town,42.27815,18.837642,,,#0288d1,p-caa3fd83b8d34e908746589d5e1c64a3
-Places,ME,Sveti Stefan,42.255888,18.891263,,,#0288d1,p-ffc8f07799c4412e9bef859ef7a46014
+Places,ME,Budva Old Town,42.27815,18.837642,2005-07-09,,#0288d1,p-caa3fd83b8d34e908746589d5e1c64a3
+Places,ME,Sveti Stefan,42.255888,18.891263,2005-07-11,,#0288d1,p-ffc8f07799c4412e9bef859ef7a46014
 Places,MO,Sands Macao,22.191631,113.554871,,,#0288d1,p-6ee459c0b6284896a9ad3163fca89e2a
 Places,NL,"Amsterdam, Boat tour",52.361835,4.882688,,,#0288d1,p-a5cbc7d26aa44c378fb1cada771ae454
 Places,NL,"Eindhoven, Markt",51.439305,5.478252,,,#0288d1,p-9c617114a36640dda2825887eb9b728d
@@ -334,7 +334,7 @@ Places,PT,Nova Praia,38.634246,-9.232163,,,#0288d1,p-6a9ff6585e994d0ebfb9cbb40ed
 Places,QA,Flagpoles of the World Cup Competitors,25.293112,51.528859,2025-10-05,,#0288d1,p-2ef08ce36d3d4ffba4927b62d2131dab
 Places,QA,Souq Waqif,25.287982,51.532883,2025-10-05,,#0288d1,p-b004945a021040a58dd393b3f293eb36
 Places,RO,"București, Piana Vyshnia - Vișinotecă",44.430984,26.101565,2021-06-17,,#0288d1,p-1632dabff92f48e68f9676c97f0402b8
-Places,RO,Heroes' Mausoleum,45.872387,27.207888,2010,,#0288d1,p-cec4c648968246a4aa9b7cbe0966aa9d
+Places,RO,Heroes' Mausoleum,45.872387,27.207888,2010-08-14,,#0288d1,p-cec4c648968246a4aa9b7cbe0966aa9d
 Places,RU,Kislovodsk,43.905591,42.715918,,,#0288d1,p-ba2cfc2e37f04934a035c7f0c3ee776b
 Places,RU,Ozero Tambukan,43.961551,43.163018,,,#0288d1,p-1cfbb01be9844aac8044ffd4e34dd079
 Places,RU,Pereval Gumbashi,43.777114,42.208652,,,#0288d1,p-8cab0bcd4cf648a6b3400a67bfa2b43c
@@ -343,13 +343,13 @@ Places,RU,St. Basil's Cathedral,55.752523,37.623087,,,#0288d1,p-229122eeaad44fe1
 Places,RU,Иноземцево,44.088732,43.095412,,,#0288d1,p-8354b11774cf4d309797f83e78ce5026
 Places,RU,"Москва, Бизнес-центр Аврора",55.734527,37.641848,2009,"Deutsche Bank, 2009",#0288d1,p-86ba5d5e05ce420897bc591ce6fa4324
 Places,RU,"Москва, ВДНХ",55.834994,37.621937,,,#0288d1,p-a3f9531651984702904def38d5f4542e
-Places,SE,Disgusting Food Museum,55.60091,13.001238,,,#0288d1,p-595d16e9da2249369bdebc29737f17d5
-Places,SE,Malmö Castle,55.604799,12.987612,,,#0288d1,p-bca16e34a9184e4cb2de0534ef044793
+Places,SE,Disgusting Food Museum,55.60091,13.001238,2023-11-16,,#0288d1,p-595d16e9da2249369bdebc29737f17d5
+Places,SE,Malmö Castle,55.604799,12.987612,2023-11-17,,#0288d1,p-bca16e34a9184e4cb2de0534ef044793
 Places,SI,Ljubljana,46.056946,14.505752,,,#0288d1,p-895c543417714de3b8e54f332c2acdaa
 Places,SK,Chodník korunami stromov Bachledova dolina,49.286176,20.313358,2026,,,p-3e2e44c9da1a4a2ea768c325a8bc960c
 Places,SK,Dolný Kubín,49.212679,19.296875,,,#0288d1,p-5442d7171917423297dc235c2dfc09fd
 Places,SK,Lanovka na Hrebienok,49.145582,20.220696,2026,,,p-d96b3642cddf4adba978fb24ef465400
-Places,SK,Orava Castle,49.262057,19.358658,,,,p-b6d5a915778041a092240151b311f408
+Places,SK,Orava Castle,49.262057,19.358658,2026-07-02,,,p-b6d5a915778041a092240151b311f408
 Places,SK,Veža snov,49.127408,20.059223,,,,p-e7d4182b31634d419a43748bb84fc725
 Places,TR,Antalya,36.896891,30.713323,,,#0288d1,p-5aff65fa5d1d44418a8a9b8abb251dee
 Places,TR,Travertines of Pamukkale (thermal pools),37.923385,29.122712,,,#0288d1,p-eb3cf53376b74fa5b98e7b94865c75f4
@@ -458,48 +458,48 @@ Hotels,CY,"Limassol, Crowne Plaza , an IHG Hotel",34.688916,33.071166,2017-06-07
 Hotels,CY,"Neo Chorio, Anassa Hotel",35.043764,32.37051,2019-06-19,,#ffea00,p-844bb5c01d4247049c46b7fc7581bdd8
 Hotels,CY,"Pissouri, Columbia Beach Resort",34.650205,32.720643,2021-07-02,,#ffea00,p-3c87b39a77424f8ca7f1d35982063b60
 Hotels,CZ,B&B Hotel Prague-City,50.092499,14.4416,2023-02-24,"2 rooms Breakfast is included in the final price. Check-in. Friday, 24 February 2023. Check-out. Sunday, 26 February 2023. € 248",#ffea00,p-20061d1613bf45118d60de48029f789a
-Hotels,CZ,"Plzeň, Penzion Plzeň U Gigantu",49.721225,13.38399,2012,2012. € 65 per  1 night (4 pers),#ffea00,p-2ba673e1f97c438490330158a34100fb
-Hotels,CZ,President Hotel Prague,50.092379,14.419745,2018,2018.Cbonds CEE Bond Conference,#ffea00,p-ddcd183fe46f415a8914eba935a6b523
-Hotels,CZ,"Jihlava, Business Hotel , Romana Havelky 13",49.411406,15.577027,2012,2012. 2 rooms = € 96.00,#ffea00,p-fbe0c587e49d4602bbbee24232b28b0d
+Hotels,CZ,"Plzeň, Penzion Plzeň U Gigantu",49.721225,13.38399,2012-07-23,2012. € 65 per  1 night (4 pers),#ffea00,p-2ba673e1f97c438490330158a34100fb
+Hotels,CZ,President Hotel Prague,50.092379,14.419745,2018-02-21,2018.Cbonds CEE Bond Conference,#ffea00,p-ddcd183fe46f415a8914eba935a6b523
+Hotels,CZ,"Jihlava, Business Hotel , Romana Havelky 13",49.411406,15.577027,2012-07-22,2012. 2 rooms = € 96.00,#ffea00,p-fbe0c587e49d4602bbbee24232b28b0d
 Hotels,DE,"ibis Kurfuerstendamm, Berlin",52.502756,13.344598,2018-11-07,"Address: Bayreutherstr. 39, 10787 Berlin. Stay: around 2018-11-07 (exact check-in/check-out and price not specified in available emails). Part of a group trip (Ukrainomics workshop) with travelers meeting at Boryspil airport before departure.",#ffea00,p-9dee7ad9f5f74e6f957091d31ce7ccad
 Hotels,DE,DJH Youth Hostel Duisburg Sportpark,51.410465,6.777012,,,#ffea00,p-5fc1c66a613e45e59d68688f3bbbbd80
-Hotels,DE,"Engen, Hegaustern",47.881667,8.726667,2012,2012. € 99 = 1 room.,#ffea00,p-f1617063b15e43bcb722400a6032d7ff
+Hotels,DE,"Engen, Hegaustern",47.881667,8.726667,2012-07-24,2012. € 99 = 1 room.,#ffea00,p-f1617063b15e43bcb722400a6032d7ff
 Hotels,DE,ibis budget Berlin Airport Schoenefeld,52.367978,13.564635,,,#ffea00,p-d54098a69fc94a85b42e17f1d3d80a5f
 Hotels,DE,Pension Am Siegestor,48.15231,11.580953,,,#ffea00,p-85e8813dda0f41898af26b8039e22d52
 Hotels,DK,Milling Hotel Windsor,55.398312,10.382927,,,#ffea00,p-32f409607683449eac7a4e5193b8ec43
 Hotels,DK,Next House Copenhagen,55.669602,12.57099,,,#ffea00,p-8c8a47a4b6b64698bfba315a93965e29
 Hotels,DK,Refborg Hotel,55.729326,9.113582,,,#ffea00,p-12592a31969c4e0cb6ddcd13b8a7d406
-Hotels,EE,Kalev Spa Hotel & Water Park,59.440109,24.75127,2021,24.12.2021: 179.00 EUR. 25.12.2021: 169.00 EUR. 26.12.2021: 113.00 EUR. Total price: 461.00 EUR,#ffea00,p-10a2022e0ac04d59af6a2b1c6253dcfd
+Hotels,EE,Kalev Spa Hotel & Water Park,59.440109,24.75127,2021-12-24,24.12.2021: 179.00 EUR. 25.12.2021: 169.00 EUR. 26.12.2021: 113.00 EUR. Total price: 461.00 EUR,#ffea00,p-10a2022e0ac04d59af6a2b1c6253dcfd
 Hotels,EG,Calimera Blend Paradise Resort,27.095791,33.839418,,,#ffea00,p-e14ef4f7b3844f4c84de9885c8c84226
-Hotels,ES,"Sant Feliu de Guíxols, Casa Rita",41.790303,3.022556,2022,"сб, 14 трав. 2022сб, 18 черв. 2022 €1 621,90. 18/6/2022 - 16/7/2022 1421€",#ffea00,p-34b74394ccd94ca69b1e995a3fccd68b
-Hotels,ES,"Barcelona, Hostal Badaloní",41.44583,2.23813,2015,,#ffea00,p-ef8a8a6c65364152a195437aeb8c200e
-Hotels,ES,"C. de Calatrava, 21",40.409161,-3.71188,,"€1574,99 = 46.32 per night. 34 nights",#ffea00,p-6d523f903c4b468c8c7081d4f609391d
-Hotels,ES,Casual del JAZZ San Sebastian,43.308677,-1.97638,2022,"€ 61.41. Check-in Friday, 23 December 2022. Check-out Saturday, 24 December 2022",#ffea00,p-81da12fe7d3a4f7ba00b3b53c3730cc5
-Hotels,ES,Cinque Terre Apartments,40.392652,-3.725399,,€ 612 = 76.50 per night. 8 nights,#ffea00,p-f78b92d7736242bfa56b4ef87ca1f7da
-Hotels,ES,Complejo Gasaqui,38.885993,-0.575965,2022,"Jul 16–17 2022. € 67 1 night, 1 room",#ffea00,p-3d680d8a4d404c51ae0e2bc483cf3f76
-Hotels,ES,"Córdoba, Hotel Riviera",37.885501,-4.783888,2015,"субота, 29 серпня 2015. неділя, 30 серпня 2015. € 45",#ffea00,p-de3625a4337648fcba3b7b82b14d914b
+Hotels,ES,"Sant Feliu de Guíxols, Casa Rita",41.790303,3.022556,2022-06-18,"сб, 14 трав. 2022сб, 18 черв. 2022 €1 621,90. 18/6/2022 - 16/7/2022 1421€",#ffea00,p-34b74394ccd94ca69b1e995a3fccd68b
+Hotels,ES,"Barcelona, Hostal Badaloní",41.44583,2.23813,2015-08-24,,#ffea00,p-ef8a8a6c65364152a195437aeb8c200e
+Hotels,ES,"C. de Calatrava, 21",40.409161,-3.71188,2022-07-31,"€1574,99 = 46.32 per night. 34 nights",#ffea00,p-6d523f903c4b468c8c7081d4f609391d
+Hotels,ES,Casual del JAZZ San Sebastian,43.308677,-1.97638,2022-12-23,"€ 61.41. Check-in Friday, 23 December 2022. Check-out Saturday, 24 December 2022",#ffea00,p-81da12fe7d3a4f7ba00b3b53c3730cc5
+Hotels,ES,Cinque Terre Apartments,40.392652,-3.725399,2022-09-02,€ 612 = 76.50 per night. 8 nights,#ffea00,p-f78b92d7736242bfa56b4ef87ca1f7da
+Hotels,ES,Complejo Gasaqui,38.885993,-0.575965,2022-07-16,"Jul 16–17 2022. € 67 1 night, 1 room",#ffea00,p-3d680d8a4d404c51ae0e2bc483cf3f76
+Hotels,ES,"Córdoba, Hotel Riviera",37.885501,-4.783888,2015-08-29,"субота, 29 серпня 2015. неділя, 30 серпня 2015. € 45",#ffea00,p-de3625a4337648fcba3b7b82b14d914b
 Hotels,ES,"Cubelles, Appartaments",41.1991,1.665584,2012,,#ffea00,p-1bb4b880bbad484288e0a71064324260
-Hotels,ES,Granada Hotel Guadalupe,37.17341,-3.584212,2022,"Заїзд субота, 30 липня 2022 (з 14:00). Виїзд неділя, 31 липня 2022 (до 12:00). € 79 Сніданок включено в остаточну ціну",#ffea00,p-99aa838cb09a40c5af19894d04356fa7
-Hotels,ES,Hotel ILUNION San Mames,43.260947,-2.950186,2022,"€ 79.70. Check-in Thursday, 22 December 2022. Check-out Friday, 23 December 2022",#ffea00,p-80d3a119a1484665b1bfc99bbc82bd2e
-Hotels,ES,Hotel YIT Ciudad de Zaragoza,41.677252,-0.86805,2022,"€ 125 Breakfast is included. Check-in Saturday, 10 September 2022 (from 13:00). Check-out Sunday, 11 September 2022 (until 12:00)",#ffea00,p-89b677e49f0942a49d02479ab76d63c4
+Hotels,ES,Granada Hotel Guadalupe,37.17341,-3.584212,2022-07-30,"Заїзд субота, 30 липня 2022 (з 14:00). Виїзд неділя, 31 липня 2022 (до 12:00). € 79 Сніданок включено в остаточну ціну",#ffea00,p-99aa838cb09a40c5af19894d04356fa7
+Hotels,ES,Hotel ILUNION San Mames,43.260947,-2.950186,2022-12-22,"€ 79.70. Check-in Thursday, 22 December 2022. Check-out Friday, 23 December 2022",#ffea00,p-80d3a119a1484665b1bfc99bbc82bd2e
+Hotels,ES,Hotel YIT Ciudad de Zaragoza,41.677252,-0.86805,2022-09-10,"€ 125 Breakfast is included. Check-in Saturday, 10 September 2022 (from 13:00). Check-out Sunday, 11 September 2022 (until 12:00)",#ffea00,p-89b677e49f0942a49d02479ab76d63c4
 Hotels,ES,ibis budget Madrid Centro las Ventas,40.432515,-3.656251,,,#ffea00,p-b0d4cacfc66e4cc88ec12159cd9ce649
 Hotels,ES,"Madrid, Los Arcos",40.415673,-3.704663,,,#ffea00,p-9a58e76af94148a983e2d29a8451f69a
 Hotels,ES,"Madrid. C. de Concepción Jerónima, 33",40.413674,-3.707078,,,#ffea00,p-cabf29a7718f4510b08a1bb8cdc48fae
 Hotels,ES,Mar de Cristal,37.639045,-0.768726,2022-07-17,"Address: Ribera Beach 1, Calle Gongora 22, Bloque 1, Planta 3, Puerta 10, Mar de Cristal, Murcia 30384, España. Stay: 2022-07-17 to 2022-07-30, 13 nights. 3 adults (one reminder email lists 4 adults). Booking ref: 15636409 / Booking.com locator A169-3238311574-783. No price information available in emails.",#ffea00,p-1083ae2ca59e4e9180ccba99ed692e1f
-Hotels,ES,Pensión Arosa - BARCELONA,41.38543,2.173522,2022,"Заїзд неділя, 22 травня 2022 . Виїзд понеділок, 23 травня 2022 . € 77",#ffea00,p-5fc7d5b5ef604d478846b8394391a1ae
+Hotels,ES,Pensión Arosa - BARCELONA,41.38543,2.173522,2022-05-22,"Заїзд неділя, 22 травня 2022 . Виїзд понеділок, 23 травня 2022 . € 77",#ffea00,p-5fc7d5b5ef604d478846b8394391a1ae
 Hotels,ES,The Cathedral Hostel,37.986389,-1.129444,,,#ffea00,p-cab15ecc070b45f09cc522a4bdba4d2f
 Hotels,ES,ibis budget Valencia Aeropuerto,39.493813,-0.469583,,,#ffea00,p-11eadbc5affc41c09fc19f0270816b77
-Hotels,ES,Hotel Alda Centro Pamplona,42.818157,-1.649857,2022,"€ 74. Check-in Wednesday, 21 December 2022 (14:00 - 00:00). Check-out Thursday, 22 December 2022 (00:00 - 12:00)",#ffea00,p-f5e5c85e1b804dbfa93fd6132f2a4bb0
+Hotels,ES,Hotel Alda Centro Pamplona,42.818157,-1.649857,2022-12-21,"€ 74. Check-in Wednesday, 21 December 2022 (14:00 - 00:00). Check-out Thursday, 22 December 2022 (00:00 - 12:00)",#ffea00,p-f5e5c85e1b804dbfa93fd6132f2a4bb0
 Hotels,FR,Aparthotel Adagio Access Paris Maisons-Alfort,48.814945,2.4187,,,#ffea00,p-bd9d15ce7c55446892af1cea2792a267
 Hotels,FR,Hôtel Gabriel,48.615482,-1.510862,2023,"2023, EUR 103, 2x, 1 night w/o breakfast",#ffea00,p-98ce6f9d73fe40ea84634819e3530a41
 Hotels,FR,hotelF1 Metz Actipôle,49.115707,6.2515,2023-08-27,Stay: 2023-08-27. Total: EUR 38. Booking ref: MPVDLKDZ.,#ffea00,p-bf3e1b7f6de941a3b212663826e2f586
-Hotels,FR,ibis budget Loriol Le Pouzin,44.756657,4.755835,2022,"€ 88. Заїзд. п'ятниця, 1 квітня 2022 (з 12:00). Виїзд. субота, 2 квітня 2022 (до 12:00). Ваше бронювання. 1 ніч, 2 номери",#ffea00,p-dc79c3e7d6344468bb8742ed618fe48d
-Hotels,FR,ibis budget Montpellier Nord,43.642312,3.844573,,,#ffea00,p-ede7d862c535416290ce68e223f5f308
+Hotels,FR,ibis budget Loriol Le Pouzin,44.756657,4.755835,2022-04-01,"€ 88. Заїзд. п'ятниця, 1 квітня 2022 (з 12:00). Виїзд. субота, 2 квітня 2022 (до 12:00). Ваше бронювання. 1 ніч, 2 номери",#ffea00,p-dc79c3e7d6344468bb8742ed618fe48d
+Hotels,FR,ibis budget Montpellier Nord,43.642312,3.844573,2023-04-29,,#ffea00,p-ede7d862c535416290ce68e223f5f308
 Hotels,FR,ibis Château de Fontainebleau,48.404268,2.698091,,,#ffea00,p-9d095686220645d48b1e11cf3b0e5ede
-Hotels,FR,ibis Paris 17 Clichy-Batignolles,48.892315,2.314736,2023,"2023, 2x, 2 night = EUR 242, w/o breakfast. Invoice ref: H2189925554. Reservation ref: MKPLCHZD.",#ffea00,p-ca545f4e5a694df2a58c59235172a95c
-Hotels,FR,"Lourdes, Hotel Mediterranee",43.092869,-0.053914,2012,2012. 2 rooms x 2 days = € 282,#ffea00,p-46d772b17f834a369ec296ad19b08c4d
+Hotels,FR,ibis Paris 17 Clichy-Batignolles,48.892315,2.314736,2023-06-09,"2023, 2x, 2 night = EUR 242, w/o breakfast. Invoice ref: H2189925554. Reservation ref: MKPLCHZD.",#ffea00,p-ca545f4e5a694df2a58c59235172a95c
+Hotels,FR,"Lourdes, Hotel Mediterranee",43.092869,-0.053914,2012-08-05,2012. 2 rooms x 2 days = € 282,#ffea00,p-46d772b17f834a369ec296ad19b08c4d
 Hotels,FR,ibis budget Paris Clichy Mairie,48.902495,2.308208,2019,2019/20. 4 nights = € 302,#ffea00,p-b182813f95d3454696510d031840491d
-Hotels,FR,"Prévessin-Moëns, Hôtel Première Classe Genève - Aéroport",46.248563,6.088062,,,#ffea00,p-4a97d6339af94f4bbfaaa83080ceff38
+Hotels,FR,"Prévessin-Moëns, Hôtel Première Classe Genève - Aéroport",46.248563,6.088062,2012-07-25,,#ffea00,p-4a97d6339af94f4bbfaaa83080ceff38
 Hotels,GE,"Batumi, Paragraph Resort & Spa Shekvetili, Autograph Collection",41.953478,41.765091,2018,,#ffea00,p-3f23b840856b4f329e3b9e903f18ddab
 Hotels,GE,Gudauri Loft Hotel Ski Resort,42.465217,44.484404,2019,,#ffea00,p-19210171fe9745c1b6626f245e66a611
 Hotels,GR,"Crete, Amirandes Grecotel Exclusive Resort",35.335301,25.324143,2016,2016.,#ffea00,p-e01eecf93fd54baebd233a0c0ecb1aae
@@ -510,15 +510,15 @@ Hotels,HU,60-as Fogado (Budapest fele),47.687777,19.741174,,,#ffea00,p-1e432f58b
 Hotels,HU,Székesfehérvár Panama Motel,47.187345,18.453489,,,#ffea00,p-94a31761568b474195ee0efd6e8dc52a
 Hotels,IE,Russell Court Hotel,53.335951,-6.263529,,,#ffea00,p-f43556f78e724739aa4c0cb0496f18fe
 Hotels,IL,Blue Bay Hotel,32.35072,34.85527,,,#ffea00,p-751abc73fb9b4cb7a8465d1a2246eb90
-Hotels,IL,Zion Hotel,31.782078,35.21865,2014,"US$242.25 3 nights,. Tuesday, 13 May 2014 - Friday, 16 May 2014",#ffea00,p-08bd8d1edfad478184f0f3805f7a1ba3
+Hotels,IL,Zion Hotel,31.782078,35.21865,2014-05-13,"US$242.25 3 nights,. Tuesday, 13 May 2014 - Friday, 16 May 2014",#ffea00,p-08bd8d1edfad478184f0f3805f7a1ba3
 Hotels,IT,B&B HOTEL Riviera Celle Ligure,44.343062,8.544384,2012,2012.,#ffea00,p-26c0e5597eae4591b6cf74c011301743
-Hotels,IT,B&B Hotel Roma Pietralata Tiburtina,41.914636,12.554363,2019,"€ 318,51. Ваше бронювання 5 ночей, 1 номер. Заїзд п'ятниця, 10 травня 2019 (14:00 - 23:00). Виїзд середа, 15 травня 2019 (00:00 - 12:00)",#ffea00,p-cde7ae3cc75f415ca3ff9793344d4001
+Hotels,IT,B&B Hotel Roma Pietralata Tiburtina,41.914636,12.554363,2019-05-10,"€ 318,51. Ваше бронювання 5 ночей, 1 номер. Заїзд п'ятниця, 10 травня 2019 (14:00 - 23:00). Виїзд середа, 15 травня 2019 (00:00 - 12:00)",#ffea00,p-cde7ae3cc75f415ca3ff9793344d4001
 Hotels,IT,"Bologna, Astoria Hotel",44.503435,11.337815,2019-05-09,"€ 99,36 . 1 ніч, 1 номер. Заїзд четвер, 9 травня 2019 (12:00 - 00:00). Виїзд п'ятниця, 10 травня 2019 (до 12:00)",#ffea00,p-8a9107893bff40a48e8e03efe5782cd7
 Hotels,IT,J24 Hotel Milano,45.497413,9.180725,,,#ffea00,p-0b76a23460344bee9fd41fba8b5320c9
 Hotels,IT,"Milan, Hostel California",45.49004,9.225795,,,#ffea00,p-f6fbbc46234e4b49b74074e67805cf2d
-Hotels,IT,Verona Hotel Stadio San Bonifacio,45.400401,11.277314,,"Реєстрація заїзду: Середа, 8 серпня 12 р., реєстрація заїзду 12:00 – 00:00. Реєстрація виїзду: Четвер, 9 серпня 12 р., реєстрація виїзду 07:30 – 10:00. Кількість . 2 rooms. Загальна вартість номеру € 114.00",#ffea00,p-474d6b7894274875b9da815792bd7c59
+Hotels,IT,Verona Hotel Stadio San Bonifacio,45.400401,11.277314,2012-08-08,"Реєстрація заїзду: Середа, 8 серпня 12 р., реєстрація заїзду 12:00 – 00:00. Реєстрація виїзду: Четвер, 9 серпня 12 р., реєстрація виїзду 07:30 – 10:00. Кількість . 2 rooms. Загальна вартість номеру € 114.00",#ffea00,p-474d6b7894274875b9da815792bd7c59
 Hotels,KZ,Astana. Brown Hotel,51.166522,71.43164,,,#ffea00,p-5a7be6c6e47a4b2cbadad83918bebe1c
-Hotels,ME,Rafailovici,42.280255,18.883371,,,#ffea00,p-066356e676c8418bb16a8381b74abf52
+Hotels,ME,Rafailovici,42.280255,18.883371,2005-07-07,,#ffea00,p-066356e676c8418bb16a8381b74abf52
 Hotels,NL,ibis Schiphol Amsterdam Airport,52.325148,4.793954,,,#ffea00,p-342b8724ef5b4095aef795d15533afef
 Hotels,NO,"Oslo Radisson Blu Hotel, Alna",59.930151,10.868261,2024-05-10,"Address: Tevlingveien 21, N-1081 Oslo, Norway. Stay: 2024-05-10 to 2024-05-12, 2 nights. 2 adults. Room: Standard Room - 1 King, Bed and Breakfast. Total: NOK 2952.14 (previously noted as EUR 235). Booking ref: 2K34NYG5. Para dos personas.",#ffea00,p-c55ee202f11a4079ad44eaec72e7b7c0
 Hotels,OM,The St. Regis Al Mouj Muscat Resort,23.618581,58.285187,2025-10-01,,#ffea00,p-ba3c9e70c5c0430da8a952ac476e461e
@@ -528,17 +528,17 @@ Hotels,PL,Hampton by Hilton Warsaw Reduta,52.211886,20.94802,,,#ffea00,p-1eef83d
 Hotels,PL,Hotel Cztery Pory Roku,50.118972,21.970376,2025,,#ffea00,p-6b1f362a031b4ab59dfb98c1a97cda1a
 Hotels,PL,Hotel Mark,52.36476,21.138424,,,#ffea00,p-042373c35d284c1883d296c008b02d00
 Hotels,PL,ibis budget Wroclaw Stadion,51.138268,16.946644,,EUR 85 ! (PLN 350). with breakfast,#ffea00,p-8cf4116d57f1459282687c32b0e764e5
-Hotels,PL,"Kolbuszowa, Dom weselny i Hotel Dworek ***",50.24155,21.779435,2022,"Заїзд. п'ятниця, 25 лютого 2022 (14:00 - 23:00). Виїзд. субота, 26 лютого 2022 (07:00 - 11:00). 2 номери. 458 zł",#ffea00,p-b03d9aed802d46c3ad3bbea3d77a5b31
+Hotels,PL,"Kolbuszowa, Dom weselny i Hotel Dworek ***",50.24155,21.779435,2022-02-25,"Заїзд. п'ятниця, 25 лютого 2022 (14:00 - 23:00). Виїзд. субота, 26 лютого 2022 (07:00 - 11:00). 2 номери. 458 zł",#ffea00,p-b03d9aed802d46c3ad3bbea3d77a5b31
 Hotels,PL,"Legnickie Pole, Hotel Dworek",51.156046,16.23115,2022,,#ffea00,p-5f9d0346d6d14082a16155a1192791b8
 Hotels,PL,Novotel Kraków City West,50.069954,19.89783,,2026_1 Night. 3 breakfast. 1 car. PLN 556.20,,p-e37547ee58ac458d8e25e8ec6e897bce
 Hotels,PL,Nysa Franciszkańska 10,50.485569,17.345533,,,#ffea00,p-20969b072e1543bc8620ae035486f092
-Hotels,PL,"Wrocław, Hotel Śląsk",51.097295,16.998096,2022,"Заїзд. неділя, 27 лютого 2022 (з 14:00). Виїзд. понеділок, 28 лютого 2022 (до 12:00). 2 номери. 342,72 zł",#ffea00,p-a890cb0854eb44279f296c076f625fa5
-Hotels,PT,"Lisboa, Residencial Lar do Areeiro",38.742046,-9.133994,2015,"понеділок, 31 серпня 2015. вівторок, 1 вересня 2015. € 62",#ffea00,p-70d1839b8dfd4c4b9850acb4a0d5d798
+Hotels,PL,"Wrocław, Hotel Śląsk",51.097295,16.998096,2022-02-27,"Заїзд. неділя, 27 лютого 2022 (з 14:00). Виїзд. понеділок, 28 лютого 2022 (до 12:00). 2 номери. 342,72 zł",#ffea00,p-a890cb0854eb44279f296c076f625fa5
+Hotels,PT,"Lisboa, Residencial Lar do Areeiro",38.742046,-9.133994,2015-08-31,"понеділок, 31 серпня 2015. вівторок, 1 вересня 2015. € 62",#ffea00,p-70d1839b8dfd4c4b9850acb4a0d5d798
 Hotels,RO,Cerdac Cotești,45.634041,27.129564,,,#ffea00,p-ec2f46f1df1d4309affdbac7ed52dac0
 Hotels,RO,Ramada Plaza by Wyndham RO - Bucharest Convention Center,44.480514,26.062177,2021,2021. EURO,#ffea00,p-a54323ce38a64a7da2e9f22d342a3ebc
-Hotels,SE,ProfilHotels | Garden,55.60454,13.003822,,,#ffea00,p-83a0e82ea0e4453bb99729f3dbaccae3
+Hotels,SE,ProfilHotels | Garden,55.60454,13.003822,2023-11-16,,#ffea00,p-83a0e82ea0e4453bb99729f3dbaccae3
 Hotels,SK,Horský hotel Hutník,48.889876,20.891424,2010,,#ffea00,p-51d4c25835884cb28569fa7cc86e4c5d
-Hotels,SK,Penzion a restaurace Raimund,49.123979,20.246353,2026,2026. 2 nights. 2x3 breakfasts. 1 car. EUR € 177.90,,p-31bcdb0d95c142a7bfe7f3c55f06683b
+Hotels,SK,Penzion a restaurace Raimund,49.123979,20.246353,2026-05-01,2026. 2 nights. 2x3 breakfasts. 1 car. EUR € 177.90,,p-31bcdb0d95c142a7bfe7f3c55f06683b
 Hotels,TR,Imperial Hotel,36.691888,30.570956,,,#ffea00,p-274a45a706024956a7ece539811cc644
 Hotels,UA,Patriot,46.935004,37.203518,,,#ffea00,p-a236d25ba5da45e3a8e952426c15d30b
 Hotels,UA,"Radisson Blu Resort, Bukovel",48.362882,24.414272,,,#ffea00,p-af906224013e4b9ea037d8d2bc9a2096
@@ -548,7 +548,7 @@ Hotels,UA,база відпочинку Департамент фінансів�
 Hotels,UA,"Біла Церква, City Park Hotel",49.794547,30.115704,,,#ffea00,p-888c8726fa07438aa9ce296919f43eec
 Hotels,UA,Вишгород Sobi club,50.585381,30.539796,,,#ffea00,p-e249e6dd8a7345afb9c0000c395a9d74
 Hotels,UA,"Вінниця, готель Гостинний двір",49.212035,28.429242,,,#ffea00,p-16865067fa8c48189f7294b66cc49849
-Hotels,UA,Гелікон,49.802914,23.980236,2014,10.05.2014,#ffea00,p-9c27726ea8c94a12a2d5fd5646b1278f
+Hotels,UA,Гелікон,49.802914,23.980236,2014-05-10,10.05.2014,#ffea00,p-9c27726ea8c94a12a2d5fd5646b1278f
 Hotels,UA,Готель Атлас Донецьк,48.009544,37.817484,,,#ffea00,p-93ba1053cf4d4ae99e880460ebda32aa
 Hotels,UA,Готель Ужгород,48.621242,22.286454,,,#ffea00,p-8609fc050744481dbe3d93b8bffe21d7
 Hotels,UA,Готель Хотин,48.504254,26.48917,,,#ffea00,p-8dc3ea69977d42599eea0c251092e119
@@ -577,8 +577,8 @@ Hotels,UK,Howard Winchester Hotel,51.529451,-0.121973,,,#ffea00,p-4fd6315063df48
 Hotels,GB,Leonardo Royal London Tower Bridge,51.511761,-0.071567,,,#ffea00,p-e1a547cc10be4bf287580aae79f3536e
 Hotels,GB,The Bermondsey Square Hotel,51.497719,-0.081316,,,#ffea00,p-4e21d7fe93e14d35894e52b3ef7b2243
 Hotels,GB,Thistle Trafalgar Square,51.509097,-0.130134,,,#ffea00,p-2d0ac228370d42fba9270094eb389ea3
-Hotels,US,HI Los Angeles Santa Monica Hostel,34.014112,-118.496371,,Thu 3/01/08:. Dorm (4 beds): 1 people | cost USD 25.00 | total USD 25.00. Fri 4/01/08:. Dorm (4 beds): 1 people | cost USD 25.00 | total USD 25.00. Sat 5/01/08:. Dorm (4 beds): 1 people | cost USD 25.00 | total USD 25.00. Total: USD 75.00,#ffea00,p-27a86e4bda2d415e89ce39f6e9bfa7a9
-Hotels,US,citizenM Washington DC NoMa hotel,38.906658,-77.006269,,,#ffea00,p-b6f1c744e40046009ed14d3ffa44797f
+Hotels,US,HI Los Angeles Santa Monica Hostel,34.014112,-118.496371,2008-01-03,Thu 3/01/08:. Dorm (4 beds): 1 people | cost USD 25.00 | total USD 25.00. Fri 4/01/08:. Dorm (4 beds): 1 people | cost USD 25.00 | total USD 25.00. Sat 5/01/08:. Dorm (4 beds): 1 people | cost USD 25.00 | total USD 25.00. Total: USD 75.00,#ffea00,p-27a86e4bda2d415e89ce39f6e9bfa7a9
+Hotels,US,citizenM Washington DC NoMa hotel,38.906658,-77.006269,2025-10-13,,#ffea00,p-b6f1c744e40046009ed14d3ffa44797f
 Hotels,SK,Wellness Hotel Chopok,49.019186,19.576676,2026-07-01,"Address: Demänovská dolina 20, 031 01 Liptovský Mikuláš. Stay: 2026-07-01 to 2026-07-05, 4 nights. 3 adults, 1 child (9y). Room: Rodinná dvojspálňová izba STANDARD PLESNIVEC, stay with breakfast and access to 2 pools and 2 wellness worlds. Total: EUR 848.00 (includes VAT and city tax; 816.00 EUR paid by card, 32.00 EUR city tax payable at reception). Booking ref: 0000135751.",,p-24d6b2b75d8c438b93b14b2ac2ac808a
 Hotels,CZ,eFi Palace Hotel,49.199635,16.620407,2026-08-18,"Bratislavská 52, 602 00 Brno. Stay: Aug 18-19, 1 night. Standard Room with Balcony. 2 adults. Breakfast: yes. Total: €66.29 incl. city tax €3.40; approx. CZK 1607. Due: €62.89 prepayment by card; city tax paid at property. Coordinate source: Mapy/web result.",#ffea00,p-b98b1ce365a84641be623257bf73201b
 Hotels,AT,Mladinski dom – Hostel,46.620000,14.329500,2026-08-19,"Mikschallee 4, 9020 Klagenfurt. Stay: Aug 19-20, 1 night. Standard Twin Room. 2 adults. Breakfast: yes. Total: €105.40 incl. city tax €5.40. Paid: €100 via Booking.com; city tax paid at property. Coordinate note: address-derived, verify pin.",#ffea00,p-b4cdfd9aeb4a4e23bf2b0c155a5bb2d1
@@ -613,9 +613,9 @@ Transport,DK,Roskilde Station,55.639215,12.08904,2024-05-13,,#01579b,p-a545f2c38
 Transport,DK,Vejle Station,55.706667,9.536509,,,#1a237e,p-defb4a0f3ed54ddd8051edb9f7aeb7ae
 Transport,DK,DFDS Copenhagen,55.701272,12.595973,,,#01579b,p-89014a888b7c4ac08811a55ac53d08a9
 Transport,ES,Alicante bus station,38.337536,-0.491511,,,#4e342e,p-5bd147cd8aa7444db3c58178b87fdc0b
-Transport,ES,Barcelona-Sants,41.378998,2.139913,,,#1a237e,p-171800616a3f455ead22b76a4d84a75f
+Transport,ES,Barcelona-Sants,41.378998,2.139913,2012-07-30,,#1a237e,p-171800616a3f455ead22b76a4d84a75f
 Transport,ES,Caldes de Malavella,41.841098,2.800765,,,#1a237e,p-126d4306c1264148a8ce00fb6cd3e7de
-Transport,ES,Córdoba,37.888489,-4.789525,,,#1a237e,p-67cf8ec1384842e18c95ed64d270a97f
+Transport,ES,Córdoba,37.888489,-4.789525,2015-08-29,,#1a237e,p-67cf8ec1384842e18c95ed64d270a97f
 Transport,ES,Estació Autobusos València,39.481169,-0.388378,,,#4e342e,p-5e63e6a6774445bc945ba6af63606d8c
 Transport,ES,Estacion de Autobuses Murcia,37.985438,-1.13934,,,#4e342e,p-5f5ff8dbf44841c4b9245180c6e9174d
 Transport,ES,Estación Madrid - Puerta de Atocha,40.405027,-3.688313,,,#1a237e,p-f6d0f19b97ab40a5b96b2f72e15b9b4f
@@ -665,7 +665,7 @@ Transport,PT,"Lisboa, Estação do Oriente",38.767842,-9.099345,2015,"01.09.2015
 Transport,RU,Москва Kiyevsky railway station,55.743087,37.56673,,,#1a237e,p-cceb46e520c74ed2a33bc99842476ba7
 Transport,RU,Порт Кавказ,45.338951,36.674065,,,#01579b,p-81f547f116af43aea96d901903a27b20
 Transport,SE,Flixbus Stop Malmo,55.607908,13.000087,2023-11-16,,#4e342e,p-b3bdc152279f411380ea5bcbae81f2a3
-Transport,SE,Malmö Centralstation,55.609067,12.999923,,,#1a237e,p-68c53a53049f4e41aa2147c65ecf3528
+Transport,SE,Malmö Centralstation,55.609067,12.999923,2023-11-17,,#1a237e,p-68c53a53049f4e41aa2147c65ecf3528
 Transport,SK,Bratislava hl.st.,48.158678,17.106206,,,#1a237e,p-c461edfadfcb466798afb871dd8fff6a
 Transport,SK,Kosice,48.72268,21.267779,,,#1a237e,p-1fa502b3eeaa43e4b5b2cc6f548c57e8
 Transport,SK,Krompachy,48.921163,20.886237,,,#1a237e,p-be49f0e93d804e958cb6b314263b26f2
@@ -699,8 +699,8 @@ Ski,US,Holiday Valley (690m),42.262581,-78.667397,,,#bdbdbd,p-0dbae9b6147b440ca2
 Ski,US,Mt. Baker (1550m),48.857292,-121.666662,,,#bdbdbd,p-2bc1d5dfbf0b46b9a09490038a38ad53
 Border_Crossing,,HU-HR Letenye - Goričan,46.420232,16.698146,,,#000000,p-7135e5286a554c03991acea7263e05f0
 Border_Crossing,,HU-RS Röszke - Хоргош,46.173328,19.976617,,,#000000,p-849a21e268534444b077743475152a97
-Border_Crossing,,RO-BG Giurgiu - Ruse,43.887234,26.007302,,,#000000,p-e948dc193b9f480eaacc70eab1ec7483
-Border_Crossing,,RO-BG Negru Voda,43.787386,28.149197,,,#000000,p-217c9a698fe34f9394da7f80c0487a68
+Border_Crossing,,RO-BG Giurgiu - Ruse,43.887234,26.007302,2010-08-14,,#000000,p-e948dc193b9f480eaacc70eab1ec7483
+Border_Crossing,,RO-BG Negru Voda,43.787386,28.149197,2010-08-04,,#000000,p-217c9a698fe34f9394da7f80c0487a68
 Border_Crossing,,UA-BY Піща - Олтуш,51.641333,23.877628,,,#000000,p-45780edb82a34003b0076a173db7df69
 Border_Crossing,,UA-BY Пулемець - Томашівка,51.574392,23.697305,,,#000000,p-b9504a22485c4bf2a546e1ecadf4c08e
 Border_Crossing,,UA-HU Лужанка - Beregsurány,48.16572,22.573937,,,#000000,p-f8f0a294024f43cc9b682129d6284552
@@ -711,7 +711,7 @@ Border_Crossing,,UA-PL Краковець - Korczowa,49.955298,23.11644,,,#00000
 Border_Crossing,,UA-PL Рава руська - Hrebenne,50.27664,23.588567,,,#000000,p-b0b4f491104148a28711a6dc561c2d6c
 Border_Crossing,,UA-PL Шегині - Medyka,49.79909,22.950045,,,#000000,p-3162bee17fa74714ae84b7b76dee8e44
 Border_Crossing,,UA-PL Ягодин-Dorohusk,51.188093,23.81045,,,#000000,p-b8b525f90d57482397fc027668bec6af
-Border_Crossing,,UA-RO Порубне - Siret,47.988715,26.060037,,,#000000,p-fe5a5ac366024450a1005f45f378e4ca
+Border_Crossing,,UA-RO Порубне - Siret,47.988715,26.060037,2010-08-03,,#000000,p-fe5a5ac366024450a1005f45f378e4ca
 Border_Crossing,,UA-RU Керч - Кавказ,45.356281,36.476914,,,#000000,p-32fb4e854b294b249fb32ea7bd9afae3
 Border_Crossing,,UA-RU Новоазовськ - Веселовознесенка,47.159735,38.234996,,,#000000,p-d9ac26822b0f4ed58ef8ba5276ad0aae
 Border_Crossing,,UA-RU Хутір Михайлівський (rail),52.201274,34.025175,,,#000000,p-8795abdc14a449368fd395520740740a
